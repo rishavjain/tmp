@@ -25,15 +25,17 @@ class MyTCPHandler(socketserver.BaseRequestHandler):
 
 
 def startserver():
-    HOST = "localhost"
+    HOST = socket.gethostbyname(socket.gethostname())
 
     # Create the server, binding to localhost on port 9999
     server = socketserver.TCPServer((HOST, PORT), MyTCPHandler)
 
-    print('server listening at {}:{}'.format(socket.gethostbyname(socket.gethostname()), PORT))
+    print('server listening at {}:{}'.format(HOST, PORT))
 
     f = open('tmp/server-address', 'w')
-    f.write(socket.gethostbyname(socket.gethostname()))
+    f.write(HOST)
+    f.write('\n')
+    f.write(str(PORT))
     f.close()
 
     # Activate the server; this will keep running until you

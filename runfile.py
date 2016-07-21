@@ -5,11 +5,7 @@ import sys
 import socket
 import time
 
-def client(data):
-    f = open('tmp/server-address')
-
-    HOST, PORT = f.readline(), 9999
-    # HOST, PORT = 'localhost', 9999
+def client(HOST, PORT, data):
 
     # Create a socket (SOCK_STREAM means a TCP socket)
     with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as sock:
@@ -29,10 +25,14 @@ if __name__ == '__main__':
 
     p.start()
 
-    time.sleep(2)
+    # time.sleep(2)
 
-    client('a')
-    client('b')
-    client('c')
+    f = open('tmp/server-address')
+    HOST, PORT = f.readline(), int(f.readline())
+    f.close()
+
+    client(HOST, PORT, 'a')
+    client(HOST, PORT, 'b')
+    client(HOST, PORT, 'c')
 
     p.terminate()
