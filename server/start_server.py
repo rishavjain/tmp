@@ -1,5 +1,7 @@
 import socketserver
 import socket
+import time
+import random
 
 PORT = 9999
 
@@ -29,6 +31,10 @@ def startserver():
     server = socketserver.TCPServer((HOST, PORT), MyTCPHandler)
 
     print('server listening at {}:{}'.format(socket.gethostbyname(socket.gethostname()), PORT))
+
+    f = open('tmp/server-address', 'w')
+    f.write(socket.gethostbyname(socket.gethostname()))
+    f.close()
 
     # Activate the server; this will keep running until you
     # interrupt the program with Ctrl-C
