@@ -5,6 +5,7 @@ import sys
 import socket
 import time
 
+
 def client(HOST, PORT, data):
 
     # Create a socket (SOCK_STREAM means a TCP socket)
@@ -12,12 +13,12 @@ def client(HOST, PORT, data):
         # Connect to server and send data
         sock.connect((HOST, PORT))
         sock.sendall(bytes(data + "\n", "utf-8"))
+        print("Sent:     {}".format(data))
 
-        # Receive data from the server and shut down
-        received = str(sock.recv(1024), "utf-8")
-
-    print("Sent:     {}".format(data))
-    print("Received: {}".format(received))
+    #     # Receive data from the server and shut down
+    #     received = str(sock.recv(1024), "utf-8")
+    #
+    # print("Received: {}".format(received))
 
 
 if __name__ == '__main__':
@@ -25,14 +26,14 @@ if __name__ == '__main__':
 
     p.start()
 
-    # time.sleep(2)
+    time.sleep(2)
 
     f = open('tmp/server-address')
-    HOST, PORT = f.readline(), int(f.readline())
+    HOST, PORT = f.readline().strip(), int(f.readline().strip())
     f.close()
 
     client(HOST, PORT, 'a')
     client(HOST, PORT, 'b')
     client(HOST, PORT, 'c')
 
-    p.terminate()
+    # p.terminate()
