@@ -1,4 +1,4 @@
-from server.start_server import startserver
+from server.start_server import run_server
 
 from multiprocessing import Process
 import sys
@@ -22,9 +22,14 @@ def client(HOST, PORT, data):
 
 
 if __name__ == '__main__':
-    p = Process(target=startserver, args=())
 
-    p.start()
+    serverProcess = Process(target=run_server, args=())
+
+    # Exit the server thread when the main thread terminates
+    serverProcess.daemon = True
+    serverProcess.start()
+
+    print("Server running in thread:", serverProcess.name)
 
     time.sleep(2)
 
@@ -36,4 +41,4 @@ if __name__ == '__main__':
     client(HOST, PORT, 'b')
     client(HOST, PORT, 'c')
 
-    # p.terminate()
+    serverProcess.join()
