@@ -4,10 +4,21 @@ import os
 import time
 import gzip
 
-GZ_INPUT = '../tmp/ukwac_subset_1M.txt.gz'
-OUT_PATH = 'e:/tmp'
+PLATFORM = 'iceberg'
+
+if PLATFORM == 1:
+    OUT_PATH = 'e:/tmp'
+    GZ_INPUT = '../tmp/ukwac_subset_1M.txt.gz'
+elif PLATFORM == 2:
+    OUT_PATH = '../tmp'
+    GZ_INPUT = '../tmp/ukwac_subset_1M.txt.gz'
+elif PLATFORM == 'iceberg':
+    OUT_PATH = '/fastdata/cop15rj/ukwac100'
+    GZ_INPUT = '/data/cop15rj/downloads/ukwac_subset_100M.txt.gz'
+
+
 OUT_FILENAME = 'ukwac'
-OUT_NUMLINES = 100
+OUT_NUMLINES = 2000
 CREATE_INSTANCE_FOLDER = False
 FILELIST = 'filelist.txt'
 

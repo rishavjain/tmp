@@ -2,31 +2,53 @@ from multiprocessing import Pool
 import threading
 import os
 import subprocess
+import sys
 import time, random
 
-FILELIST = 'e:\\tmp\\filelist.txt'
-STANFORD_CORENLP_PATH = 'C:\\stanford-corenlp-full-2015-12-09'
-JAVA_HEAP_MEMORY = '2g'
+PLATFORM = 'iceberg'
+
+if PLATFORM == 1:
+    FILELIST = 'e:\\tmp\\filelist.txt'
+    STANFORD_CORENLP_PATH = 'C:\\stanford-corenlp-full-2015-12-09'
+    JAVA_HEAP_MEMORY = '2g'
+elif PLATFORM == 2:
+    FILELIST = '../tmp/filelist.txt'
+    STANFORD_CORENLP_PATH = 'C:\\Users\\cop15rj\\PycharmProjects\\lexsub\\stanford-corenlp-full-2015-12-09'
+    JAVA_HEAP_MEMORY = '2g'
+elif PLATFORM == 'iceberg':
+    FILELIST = '/fastdata/cop15rj/ukwac100/filelist.txt'
+    STANFORD_CORENLP_PATH = '/home/cop15rj/lexsub/stanford-corenlp-full-2015-12-09'
+    JAVA_HEAP_MEMORY = '2g'
+
+if sys.platform.find('win') != -1:
+    JAVA_CP_SEP = ';'
+else:
+    JAVA_CP_SEP = ':'
+
+
+
+QSUB_MEM = '8G'
+QSUB_RMEM = '3G'
+QSUB_MAIL_OPTION = 'bea'
+QSUB_MAIL_ADDRESS = 'rjain2@sheffield.ac.uk'
+QSUB_REDIRECT_SCRIPT = 'redirect.bash'
 
 PARSER_CMD = 'java -Xmx{0} ' \
-             '-cp "{1}/*;." ' \
+             '-cp "{1}/*' + JAVA_CP_SEP + \
+             '." ' \
              'edu.stanford.nlp.pipeline.StanfordCoreNLP ' \
              '-annotators tokenize,ssplit,pos,depparse ' \
              '-file {2} ' \
              '-outputDirectory {3} ' \
              '-outputFormat conll'
 
-QSUB_MEM = '5G'
-QSUB_RMEM = '3G'
-QSUB_MAIL_OPTION = 'n'
-QSUB_MAIL_ADDRESS = 'rjain2@sheffield.ac.uk'
-QSUB_CMD = 'qsub -l mem={0} ' \
-           '-l rmem={1} ' \
-           '-j y -o {2} ' \
-           '-m {3} -M {4} ' \
-           '{5}'
+QSUB_CMD = 'qsub -l mem=' + QSUB_MEM \
+           + ' -l rmem=' + QSUB_RMEM \
+           + ' -m ' + QSUB_MAIL_OPTION + ' -M ' + QSUB_MAIL_ADDRESS \
+           + ' -j y -o {0} ' + QSUB_REDIRECT_SCRIPT + ' {1}'
 
 FILELIST = os.path.abspath(FILELIST)
+
 
 def run_parser(inputFile):
     print('parsing input file', ':', inputFile)
@@ -36,20 +58,22 @@ def run_parser(inputFile):
 
     print('parserCmd', ':', parserCmd)
 
-    qsubLogFile = os.path.join(os.path.dirname(inputFile), 'log_'+os.path.basename(inputFile))
-    qsubCmd = QSUB_CMD.format(QSUB_MEM, QSUB_RMEM, qsubLogFile, QSUB_MAIL_OPTION, QSUB_MAIL_ADDRESS, parserCmd)
+    if PLATFORM == 'iceberg':
+        qsubLogFile = os.path.join(os.path.dirname(inputFile), 'log_' + os.path.basename(inputFile))
+        parserCmd = QSUB_CMD.format(qsubLogFile, parserCmd)
 
-    print('qsubCmd', ':', qsubCmd)
+        print('qsubCmd', ':', parserCmd)
 
-    parserProcess = subprocess.Popen(qsubCmd, stdout=subprocess.PIPE, stderr=subprocess.STDOUT, shell=True)
+    parserProcess = subprocess.Popen(parserCmd, stdout=subprocess.PIPE, stderr=subprocess.STDOUT, shell=True)
 
     for line in parserProcess.stdout:
-        print(line.decode('utf-8'))
+        print(os.path.basename(inputFile), ':', line.decode('utf-8'))
 
     parserProcess.stdout.close()
     parserProcess.wait()
 
     return
+
 
 def depparse_input():
     fileList = open(FILELIST)
@@ -59,13 +83,14 @@ def depparse_input():
     for file in inputFileNames:
         print(file)
 
-    pool = Pool(16)
-    pool.map(run_parser, inputFileNames[1:2])
+    pool = Pool()
+    pool.map(run_parser, inputFileNames)
 
     pool.close()
     pool.join()
 
     fileList.close()
+
 
 if __name__ == '__main__':
     depparse_input()
