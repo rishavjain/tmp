@@ -16,7 +16,7 @@ elif PLATFORM == 2:
     STANFORD_CORENLP_PATH = 'C:\\Users\\cop15rj\\PycharmProjects\\lexsub\\stanford-corenlp-full-2015-12-09'
     JAVA_HEAP_MEMORY = '2g'
 elif PLATFORM == 'iceberg':
-    FILELIST = '/fastdata/cop15rj/ukwac100/filelist.txt'
+    FILELIST = '/fastdata/cop15rj/ukwac100/filelist2.txt'
     STANFORD_CORENLP_PATH = '/home/cop15rj/lexsub/stanford-corenlp-full-2015-12-09'
     JAVA_HEAP_MEMORY = '2g'
 
