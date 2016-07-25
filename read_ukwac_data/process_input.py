@@ -18,7 +18,7 @@ elif PLATFORM == 'iceberg':
 
 
 OUT_FILENAME = 'ukwac'
-OUT_NUMLINES = 2000
+OUT_NUMLINES = 1000
 CREATE_INSTANCE_FOLDER = False
 FILELIST = 'filelist.txt'
 
