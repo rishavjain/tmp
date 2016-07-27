@@ -4,8 +4,9 @@ import os
 import subprocess
 import sys
 import time, random
+from multiprocessing import Lock
 
-PLATFORM = 'iceberg'
+PLATFORM = 2
 
 if PLATFORM == 1:
     FILELIST = 'e:\\tmp\\filelist.txt'
@@ -15,17 +16,17 @@ elif PLATFORM == 2:
     FILELIST = '../tmp/filelist.txt'
     STANFORD_CORENLP_PATH = 'C:\\Users\\cop15rj\\PycharmProjects\\lexsub\\stanford-corenlp-full-2015-12-09'
     JAVA_HEAP_MEMORY = '2g'
+    COMMANDS_FILE = '../tmp/commands.txt'
 elif PLATFORM == 'iceberg':
-    FILELIST = '/fastdata/cop15rj/ukwac100/filelist2.txt'
+    FILELIST = '/fastdata/cop15rj/ukwac100/filelist.txt'
     STANFORD_CORENLP_PATH = '/home/cop15rj/lexsub/stanford-corenlp-full-2015-12-09'
     JAVA_HEAP_MEMORY = '2g'
+    COMMANDS_FILE = '/fastdata/cop15rj/ukwac100/commands.txt'
 
 if sys.platform.find('win') != -1:
     JAVA_CP_SEP = ';'
 else:
     JAVA_CP_SEP = ':'
-
-
 
 QSUB_MEM = '8G'
 QSUB_RMEM = '3G'
@@ -42,12 +43,17 @@ PARSER_CMD = 'java -Xmx{0} ' \
              '-outputDirectory {3} ' \
              '-outputFormat conll'
 
+QSUB_REDIRECT_SCRIPT = os.path.join(os.path.dirname(os.path.realpath(sys.argv[0])), QSUB_REDIRECT_SCRIPT)
 QSUB_CMD = 'qsub -l mem=' + QSUB_MEM \
            + ' -l rmem=' + QSUB_RMEM \
            + ' -m ' + QSUB_MAIL_OPTION + ' -M ' + QSUB_MAIL_ADDRESS \
-           + ' -j y -o {0} ' + QSUB_REDIRECT_SCRIPT + ' {1}'
+           + ' -j y -o {0} -N {1} ' \
+           + QSUB_REDIRECT_SCRIPT + ' {2}'
 
 FILELIST = os.path.abspath(FILELIST)
+
+commandsFile = open(os.path.abspath(COMMANDS_FILE), 'w')
+threadLock = Lock()
 
 
 def run_parser(inputFile):
@@ -60,9 +66,16 @@ def run_parser(inputFile):
 
     if PLATFORM == 'iceberg':
         qsubLogFile = os.path.join(os.path.dirname(inputFile), 'log_' + os.path.basename(inputFile))
-        parserCmd = QSUB_CMD.format(qsubLogFile, parserCmd)
+        jobName = os.path.basename(inputFile)
+        parserCmd = QSUB_CMD.format(qsubLogFile, jobName, parserCmd)
 
         print('qsubCmd', ':', parserCmd)
+
+    threadLock.acquire()
+    commandsFile.write(parserCmd)
+    commandsFile.write('\n')
+    commandsFile.flush()
+    threadLock.release()
 
     parserProcess = subprocess.Popen(parserCmd, stdout=subprocess.PIPE, stderr=subprocess.STDOUT, shell=True)
 
@@ -90,6 +103,7 @@ def depparse_input():
     pool.join()
 
     fileList.close()
+    commandsFile.close()
 
 
 if __name__ == '__main__':

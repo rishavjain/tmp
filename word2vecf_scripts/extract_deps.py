@@ -96,7 +96,7 @@ if __name__ == '__main__':
     vocab = set(read_vocab(open(vocab_file)).keys())
     print("vocab:", len(vocab), file=sys.stderr)
     for i, sent in enumerate(read_sent(sys.stdin, format)):
-        if i % 100000 == 0:
+        if i % 10000 == 0:
             print(i, file=sys.stderr)
         for tok in sent[1:]:
             par_ind = tok[2]

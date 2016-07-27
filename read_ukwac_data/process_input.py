@@ -3,6 +3,7 @@ from common.utils import create_dirs
 import os
 import time
 import gzip
+import math
 
 PLATFORM = 'iceberg'
 
@@ -18,7 +19,7 @@ elif PLATFORM == 'iceberg':
 
 
 OUT_FILENAME = 'ukwac'
-OUT_NUMLINES = 1000
+OUT_NUMLINES = 500
 CREATE_INSTANCE_FOLDER = False
 FILELIST = 'filelist.txt'
 
@@ -69,8 +70,10 @@ for line in inputFile:
 
 outputFile.close()
 
-if OUT_NUMLINES and numLines % OUT_NUMLINES == 0:
+
+if OUT_NUMLINES and math.ceil(numLines / OUT_NUMLINES) < numFiles and numLines % OUT_NUMLINES == 0:
     os.remove(outputFile.name)
+    numFiles -= 1
 else:
     outputFileNames += (os.path.abspath(outputFile.name),)
     fileList.write(os.path.abspath(outputFile.name))

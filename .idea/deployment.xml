@@ -19,7 +19,8 @@
       <paths name="iceberg-fastdata">
         <serverdata>
           <mappings>
-            <mapping local="$PROJECT_DIR$" web="/" />
+            <mapping deploy="/backup/data" local="$PROJECT_DIR$/data" web="/" />
+            <mapping deploy="/backup/tmp" local="$PROJECT_DIR$/tmp" web="/" />
           </mappings>
         </serverdata>
       </paths>
