@@ -45,12 +45,15 @@ if __name__ == '__main__':
                     print('contextStr', ':', contextStr)
 
                     t = re.findall('<head>.+</head>', contextStr)[0]
+
+                    idx = (contextStr.split(' ')).index(t) + 1
+
                     print('t', ':', t.strip('</head>'))
 
                     contextStr = contextStr.replace(t, t.strip('</head>'))
                     # print('contextStr', ':', contextStr)
 
-                    print(lexelt.attrib['item'], file=targetsFile)
+                    print(lexelt.attrib['item'], t.strip('</head>'), idx, file=targetsFile)
                     print(contextStr, file=sentencesFile)
 
         #         break

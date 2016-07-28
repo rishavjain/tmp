@@ -41,6 +41,7 @@ if __name__ == '__main__':
 
     outFile = open(TEXT_OUTPUT, 'w')
     for word in subs:
+        subs[word] = list(subs[word])
         outFile.write(' '.join([word, str(subs[word]).strip('{}\'').replace('\', \'', ' ')]))
         outFile.write('\n')
     outFile.close()

@@ -1,16 +1,17 @@
 """
+set path=%path%;\\studata05\home\CO\Cop15rj\cygwin\bin
 
-cat data\ukwac_10M.conll evaluate\data\sentences.txt.conll > data\combined10.conll
+cat .\data\1\ukwac_10M.conll .\evaluate\data\sentences.txt.conll > .\data\1\combined10.conll
 
-cut -f 2 data\combined10.conll | python word2vecf_scripts\vocab.py 100 > tmp\combined10_vocab.txt
+cut -f 2 .\data\2\combined10.conll | python code\vocab.py 100 > .\data\2\vocab.txt
 
-cat data\combined10.conll | python word2vecf_scripts\extract_deps.py conll tmp\combined10_vocab.txt 100 > tmp\combined10_dep.txt
+cat .\data\2\combined10.conll | python code\extract_deps.py conll .\data\2\vocab.txt 100 > .\data\2\combined10.dep
 
-word2vecf\count_and_filter -train tmp\combined10_dep.txt -cvocab tmp\combined_context.txt -wvocab tmp\combined_vocab.txt -min-count 100
+word2vecf\count_and_filter -train .\data\2\combined10.dep -cvocab .\data\2\cv -wvocab .\data\2\wv -min-count 100
 
-word2vecf\word2vecf -train tmp\combined10_dep.txt -cvocab tmp\combined_context.txt -wvocab tmp\combined_vocab.txt -output tmp\dim600vecs -dumpcv tmp\dim600contexts -size 600 -negative 15 -threads 32
+word2vecf\word2vecf -train .\data\2\combined10.dep -cvocab .\data\2\cv -wvocab .\data\2\wv -output .\data\2\dim600vecs -dumpcv .\data\2\dim600contexts -size 600 -negative 15 -threads 32
 
-python word2vecf_scripts\vecs2nps.py tmp\dim600vecs data\vecs
-python word2vecf_scripts\vecs2nps.py tmp\dim600contexts data\contexts
+python code\vecs2nps.py .\data\2\dim600vecs .\data\2\vecs
+python code\vecs2nps.py .\data\2\dim600contexts .\data\2\contexts
 
 """

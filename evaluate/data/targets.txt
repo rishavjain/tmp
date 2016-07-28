@@ -1,2010 +1,2010 @@
-bright.a
-bright.a
-bright.a
-bright.a
-bright.a
-bright.a
-bright.a
-bright.a
-bright.a
-bright.a
-film.n
-film.n
-film.n
-film.n
-film.n
-film.n
-film.n
-film.n
-film.n
-film.n
-take.v
-take.v
-take.v
-take.v
-take.v
-take.v
-take.v
-take.v
-take.v
-take.v
-tight.r
-tight.r
-tight.r
-tight.r
-tight.r
-tight.r
-tight.r
-tight.r
-tight.r
-tight.r
-bar.n
-bar.n
-bar.n
-bar.n
-bar.n
-bar.n
-bar.n
-bar.n
-bar.n
-bar.n.v
-cross.n
-cross.n
-cross.n
-cross.n
-cross.n
-cross.n
-cross.n
-cross.n
-cross.n
-cross.n.a
-finally.r
-finally.r
-finally.r
-finally.r
-finally.r
-finally.r
-finally.r
-finally.r
-finally.r
-finally.r
-find.v
-find.v
-find.v
-find.v
-find.v
-find.v
-find.v
-find.v
-find.v
-find.v
-fix.v
-fix.v
-fix.v
-fix.v
-fix.v
-fix.v
-fix.v
-fix.v
-fix.v
-fix.v
-manage.v
-manage.v
-manage.v
-manage.v
-manage.v
-manage.v
-manage.v
-manage.v
-manage.v
-manage.v
-neat.a
-neat.a
-neat.a
-neat.a
-neat.a
-neat.a
-neat.a
-neat.a
-neat.a
-neat.a
-rich.a
-rich.a
-rich.a
-rich.a
-rich.a
-rich.a
-rich.a
-rich.a
-rich.a
-rich.a
-severely.r
-severely.r
-severely.r
-severely.r
-severely.r
-severely.r
-severely.r
-severely.r
-severely.r
-severely.r
-stand.n.v
-stand.n.v
-stand.n.v
-stand.n.v
-stand.n.v
-stand.n.v
-stand.n
-stand.n
-stand.n
-stand.n
-well.r
-well.r
-well.r
-well.r
-well.r
-well.r
-well.r
-well.r
-well.r
-well.r
-wild.a
-wild.a
-wild.a
-wild.a
-wild.a
-wild.a
-wild.a
-wild.a
-wild.a
-wild.a.n
-can.n
-can.n
-can.n
-can.n
-can.n
-can.n
-can.n
-can.n
-can.n
-can.n
-dark.n
-dark.n
-dark.n
-dark.n
-dark.n
-dark.n
-dark.n
-dark.n
-dark.n
-dark.n
-examination.n
-examination.n
-examination.n
-examination.n
-examination.n
-examination.n
-examination.n
-examination.n
-examination.n
-examination.n
-fear.v
-fear.v
-fear.v
-fear.v
-fear.v
-fear.v
-fear.v
-fear.v
-fear.v
-fear.v
-forget.v
-forget.v
-forget.v
-forget.v
-forget.v
-forget.v
-forget.v
-forget.v
-forget.v
-forget.v
-gall.n
-gall.n
-gall.n
-gall.n
-gall.n
-gall.n
-gall.n
-gall.n
-gall.n
-gall.n
-grim.a
-grim.a
-grim.a
-grim.a
-grim.a
-grim.a
-grim.a
-grim.a
-grim.a
-grim.a
-lie.v
-lie.v
-lie.v
-lie.v
-lie.v
-lie.v
-lie.v
-lie.v
-lie.v
-lie.v
-nasty.a
-nasty.a
-nasty.a
-nasty.a
-nasty.a
-nasty.a
-nasty.a
-nasty.a
-nasty.a
-nasty.a
-nearly.r
-nearly.r
-nearly.r
-nearly.r
-nearly.r
-nearly.r
-nearly.r
-nearly.r
-nearly.r
-nearly.r
-outdoor.a
-outdoor.a
-outdoor.a
-outdoor.a
-outdoor.a
-outdoor.a
-outdoor.a
-outdoor.a
-outdoor.a
-outdoor.a
-reasonable.a
-reasonable.a
-reasonable.a
-reasonable.a
-reasonable.a
-reasonable.a
-reasonable.a
-reasonable.a
-reasonable.a
-reasonable.a
-rough.a
-rough.a
-rough.a
-rough.a
-rough.a
-rough.a
-rough.a
-rough.a
-rough.a
-rough.a
-run.v
-run.v
-run.v
-run.v
-run.v
-run.v
-run.v
-run.v
-run.v
-run.v
-side.n
-side.n
-side.n
-side.n
-side.n
-side.n
-side.n
-side.n
-side.n
-side.n
-tell.v
-tell.v
-tell.v
-tell.v
-tell.v
-tell.v
-tell.v
-tell.v
-tell.v
-tell.v
-terrible.a
-terrible.a
-terrible.a
-terrible.a
-terrible.a
-terrible.a
-terrible.a
-terrible.a
-terrible.a
-terrible.a
-think.v
-think.v
-think.v
-think.v
-think.v
-think.v
-think.v
-think.v
-think.v
-think.v
-thus.r
-thus.r
-thus.r
-thus.r
-thus.r
-thus.r
-thus.r
-thus.r
-thus.r
-thus.r
-wind.n
-wind.n
-wind.n
-wind.n
-wind.n
-wind.n
-wind.n
-wind.n
-wind.n
-wind.n
-charge.v
-charge.v
-charge.v
-charge.v
-charge.v
-charge.v
-charge.v
-charge.v
-charge.v
-charge.v
-civil.a
-civil.a
-civil.a
-civil.a
-civil.a
-civil.a
-civil.a
-civil.a
-civil.a
-civil.a
-clean.v
-clean.v
-clean.v
-clean.v
-clean.v
-clean.v
-clean.v
-clean.v
-clean.v
-clean.v
-coach.n
-coach.n
-coach.n
-coach.n
-coach.n
-coach.n
-coach.n
-coach.n
-coach.n
-coach.n
-dry.a
-dry.a
-dry.a
-dry.a
-dry.a
-dry.a
-dry.a
-dry.a
-dry.a
-dry.a
-full.a
-full.a
-full.a
-full.a
-full.a
-full.a
-full.a
-full.a
-full.a
-full.a
-heap.n
-heap.n
-heap.n
-heap.n
-heap.n
-heap.n
-heap.n
-heap.n
-heap.n
-heap.n
-job.n
-job.n
-job.n
-job.n
-job.n
-job.n
-job.n
-job.n
-job.n
-job.n
-late.r
-late.r
-late.r
-late.r
-late.r
-late.r
-late.r
-late.r
-late.r
-late.r
-new.a
-new.a
-new.a
-new.a
-new.a
-new.a
-new.a
-new.a
-new.a
-new.a
-often.r
-often.r
-often.r
-often.r
-often.r
-often.r
-often.r
-often.r
-often.r
-often.r
-only.r
-only.r
-only.r
-only.r
-only.r
-only.r
-only.r
-only.r
-only.r
-only.r
-pulse.n
-pulse.n
-pulse.n
-pulse.n
-pulse.n
-pulse.n
-pulse.n
-pulse.n
-pulse.n
-pulse.n
-put.v
-put.v
-put.v
-put.v
-put.v
-put.v
-put.v
-put.v
-put.v
-put.v
-really.r
-really.r
-really.r
-really.r
-really.r
-really.r
-really.r
-really.r
-really.r
-really.r
-return.v
-return.v
-return.v
-return.v
-return.v
-return.v
-return.v
-return.v
-return.v
-return.v
-shed.v
-shed.v
-shed.v
-shed.v
-shed.v
-shed.v
-shed.v
-shed.v
-shed.v
-shed.v
-softly.r
-softly.r
-softly.r
-softly.r
-softly.r
-softly.r
-softly.r
-softly.r
-softly.r
-softly.r
-special.a
-special.a
-special.a
-special.a
-special.a
-special.a
-special.a
-special.a
-special.a
-special.a
-way.n
-way.n
-way.n
-way.n
-way.n
-way.n
-way.n
-way.n
-way.n
-way.n
-about.r
-about.r
-about.r
-about.r
-about.r
-about.r
-about.r
-about.r
-about.r
-about.r
-bug.n
-bug.n
-bug.n
-bug.n
-bug.n
-bug.n
-bug.n
-bug.n
-bug.n
-bug.n
-bull.n
-bull.n
-bull.n
-bull.n
-bull.n
-bull.n
-bull.n
-bull.n
-bull.n
-bull.n
-education.n
-education.n
-education.n
-education.n
-education.n
-education.n
-education.n
-education.n
-education.n
-education.n
-girl.n
-girl.n
-girl.n
-girl.n
-girl.n
-girl.n
-girl.n
-girl.n
-girl.n
-girl.n
-good.a
-good.a
-good.a
-good.a
-good.a
-good.a
-good.a
-good.a
-good.a
-good.a
-hard.r
-hard.r
-hard.r
-hard.r
-hard.r
-hard.r
-hard.r
-hard.r
-hard.r
-hard.r
-heavy.a
-heavy.a
-heavy.a
-heavy.a
-heavy.a
-heavy.a
-heavy.a
-heavy.a
-heavy.a
-heavy.a
-instead.r
-instead.r
-instead.r
-instead.r
-instead.r
-instead.r
-instead.r
-instead.r
-instead.r
-instead.r
-live.a
-live.a
-live.a
-live.a
-live.a
-live.a
-live.a
-live.a
-live.a
-live.a
-mass.n
-mass.n
-mass.n
-mass.n
-mass.n
-mass.n
-mass.n
-mass.n
-mass.n
-mass.n
-match.n
-match.n
-match.n
-match.n
-match.n
-match.n
-match.n
-match.n
-match.n
-match.n
-mood.n
-mood.n
-mood.n
-mood.n
-mood.n
-mood.n
-mood.n
-mood.n
-mood.n
-mood.n
-phone.n
-phone.n
-phone.n
-phone.n
-phone.n
-phone.n
-phone.n
-phone.n
-phone.n
-phone.n
-post.n
-post.n
-post.n
-post.n
-post.n
-post.n
-post.n
-post.n
-post.n
-post.n
-pound.n
-pound.n
-pound.n
-pound.n
-pound.n
-pound.n
-pound.n
-pound.n
-pound.n
-pound.n
-raw.a
-raw.a
-raw.a
-raw.a
-raw.a
-raw.a
-raw.a
-raw.a
-raw.a
-raw.a
-remainder.n
-remainder.n
-remainder.n
-remainder.n
-remainder.n
-remainder.n
-remainder.n
-remainder.n
-remainder.n
-remainder.n
-rude.a
-rude.a
-rude.a
-rude.a
-rude.a
-rude.a
-rude.a
-rude.a
-rude.a
-rude.a
-saint.n
-saint.n
-saint.n
-saint.n
-saint.n
-saint.n
-saint.n
-saint.n
-saint.n
-saint.n
-still.a
-still.a
-still.a
-still.a
-still.a
-still.a
-still.a
-still.a
-still.a
-still.a
-straight.a
-straight.a
-straight.a
-straight.a
-straight.a
-straight.a
-straight.a
-straight.a
-straight.a
-straight.a
-strain.n
-strain.n
-strain.n
-strain.n
-strain.n
-strain.n
-strain.n
-strain.n
-strain.n
-strain.n
-time.n
-time.n
-time.n
-time.n
-time.n
-time.n
-time.n
-time.n
-time.n
-time.n
-yard.n
-yard.n
-yard.n
-yard.n
-yard.n
-yard.n
-yard.n
-yard.n
-yard.n
-yard.n
-apparently.r
-apparently.r
-apparently.r
-apparently.r
-apparently.r
-apparently.r
-apparently.r
-apparently.r
-apparently.r
-apparently.r
-around.r
-around.r
-around.r
-around.r
-around.r
-around.r
-around.r
-around.r
-around.r
-around.r
-away.r
-away.r
-away.r
-away.r
-away.r
-away.r
-away.r
-away.r
-away.r
-away.r
-blue.a
-blue.a
-blue.a
-blue.a
-blue.a
-blue.a
-blue.a
-blue.a
-blue.a
-blue.a
-check.v
-check.v
-check.v
-check.v
-check.v
-check.v
-check.v
-check.v
-check.v
-check.v
-clear.v
-clear.v
-clear.v
-clear.v
-clear.v
-clear.v
-clear.v
-clear.v
-clear.v
-clear.v
-close.n
-close.n
-close.n
-close.n
-close.n
-close.n
-close.n
-close.n
-close.n
-close.n
-come.v
-come.v
-come.v
-come.v
-come.v
-come.v
-come.v
-come.v
-come.v
-come.v
-cry.v
-cry.v
-cry.v
-cry.v
-cry.v
-cry.v
-cry.v
-cry.v
-cry.v
-cry.v
-dismiss.v
-dismiss.v
-dismiss.v
-dismiss.v
-dismiss.v
-dismiss.v
-dismiss.v
-dismiss.v
-dismiss.v
-dismiss.v
-draw.v
-draw.v
-draw.v
-draw.v
-draw.v
-draw.v
-draw.v
-draw.v
-draw.v
-draw.v
-earlier.r
-earlier.r
-earlier.r
-earlier.r
-earlier.r
-earlier.r
-earlier.r
-earlier.r
-earlier.r
-earlier.r
-entirely.r
-entirely.r
-entirely.r
-entirely.r
-entirely.r
-entirely.r
-entirely.r
-entirely.r
-entirely.r
-entirely.r
-forth.r
-forth.r
-forth.r
-forth.r
-forth.r
-forth.r
-forth.r
-forth.r
-forth.r
-forth.r
-fresh.a
-fresh.a
-fresh.a
-fresh.a
-fresh.a
-fresh.a
-fresh.a
-fresh.a
-fresh.a
-fresh.a
-go.v
-go.v
-go.v
-go.v
-go.v
-go.v
-go.v
-go.v
-go.v
-go.v
-let.v
-let.v
-let.v
-let.v
-let.v
-let.v
-let.v
-let.v
-let.v
-let.v
-liberal.a
-liberal.a
-liberal.a
-liberal.a
-liberal.a
-liberal.a
-liberal.a
-liberal.a
-liberal.a
-liberal.a
-light.a
-light.a
-light.a
-light.a
-light.a
-light.a
-light.a
-light.a
-light.a
-light.a
-likewise.r
-likewise.r
-likewise.r
-likewise.r
-likewise.r
-likewise.r
-likewise.r
-likewise.r
-likewise.r
-likewise.r
-now.r
-now.r
-now.r
-now.r
-now.r
-now.r
-now.r
-now.r
-now.r
-now.r
-order.v
-order.v
-order.v
-order.v
-order.v
-order.v
-order.v
-order.v
-order.v
-order.v
-possibly.r
-possibly.r
-possibly.r
-possibly.r
-possibly.r
-possibly.r
-possibly.r
-possibly.r
-possibly.r
-possibly.r
-quick.a
-quick.a
-quick.a
-quick.a
-quick.a
-quick.a
-quick.a
-quick.a
-quick.a
-quick.a
-see.v
-see.v
-see.v
-see.v
-see.v
-see.v
-see.v
-see.v
-see.v
-see.v
-shortly.r
-shortly.r
-shortly.r
-shortly.r
-shortly.r
-shortly.r
-shortly.r
-shortly.r
-shortly.r
-shortly.r
-skip.v
-skip.v
-skip.v
-skip.v
-skip.v
-skip.v
-skip.v
-skip.v
-skip.v
-skip.v
-solid.a
-solid.a
-solid.a
-solid.a
-solid.a
-solid.a
-solid.a
-solid.a
-solid.a
-solid.a
-strong.a
-strong.a
-strong.a
-strong.a
-strong.a
-strong.a
-strong.a
-strong.a
-strong.a
-strong.a
-suffer.v
-suffer.v
-suffer.v
-suffer.v
-suffer.v
-suffer.v
-suffer.v
-suffer.v
-suffer.v
-suffer.v
-tap.v
-tap.v
-tap.v
-tap.v
-tap.v
-tap.v
-tap.v
-tap.v
-tap.v
-tap.v
-therefore.r
-therefore.r
-therefore.r
-therefore.r
-therefore.r
-therefore.r
-therefore.r
-therefore.r
-therefore.r
-therefore.r
-touch.v
-touch.v
-touch.v
-touch.v
-touch.v
-touch.v
-touch.v
-touch.v
-touch.v
-touch.v
-worthy.a
-worthy.a
-worthy.a
-worthy.a
-worthy.a
-worthy.a
-worthy.a
-worthy.a
-worthy.a
-worthy.a
-account.n
-account.n
-account.n
-account.n
-account.n
-account.n
-account.n
-account.n
-account.n
-account.n
-acquire.v
-acquire.v
-acquire.v
-acquire.v
-acquire.v
-acquire.v
-acquire.v
-acquire.v
-acquire.v
-acquire.v
-acute.a
-acute.a
-acute.a
-acute.a
-acute.a
-acute.a
-acute.a
-acute.a
-acute.a
-acute.a
-below.r
-below.r
-below.r
-below.r
-below.r
-below.r
-below.r
-below.r
-below.r
-below.r
-bring.v
-bring.v
-bring.v
-bring.v
-bring.v
-bring.v
-bring.v
-bring.v
-bring.v
-bring.v
-burst.v
-burst.v
-burst.v
-burst.v
-burst.v
-burst.v
-burst.v
-burst.v
-burst.v
-burst.v
-call.v
-call.v
-call.v
-call.v
-call.v
-call.v
-call.v
-call.v
-call.v
-call.v
-caravan.n
-caravan.n
-caravan.n
-caravan.n
-caravan.n
-caravan.n
-caravan.n
-caravan.n
-caravan.n
-caravan.n
-carry.v
-carry.v
-carry.v
-carry.v
-carry.v
-carry.v
-carry.v
-carry.v
-carry.v
-carry.v
-clear.a
-clear.a
-clear.a
-clear.a
-clear.a
-clear.a
-clear.a
-clear.a
-clear.a
-clear.a
-close.r
-close.r
-close.r
-close.r
-close.r
-close.r
-close.r
-close.r
-close.r
-close.r
-closely.r
-closely.r
-closely.r
-closely.r
-closely.r
-closely.r
-closely.r
-closely.r
-closely.r
-closely.r
-decline.v
-decline.v
-decline.v
-decline.v
-decline.v
-decline.v
-decline.v
-decline.v
-decline.v
-decline.v
-drop.v
-drop.v
-drop.v
-drop.v
-drop.v
-drop.v
-drop.v
-drop.v
-drop.v
-drop.v
-easy.a
-easy.a
-easy.a
-easy.a
-easy.a
-easy.a
-easy.a
-easy.a
-easy.a
-easy.a
-endure.v
-endure.v
-endure.v
-endure.v
-endure.v
-endure.v
-endure.v
-endure.v
-endure.v
-endure.v
-extended.a
-extended.a
-extended.a
-extended.a
-extended.a
-extended.a
-extended.a
-extended.a
-extended.a
-extended.a
-external.a
-external.a
-external.a
-external.a
-external.a
-external.a
-external.a
-external.a
-external.a
-external.a
-field.n
-field.n
-field.n
-field.n
-field.n
-field.n
-field.n
-field.n
-field.n
-field.n
-flat.a
-flat.a
-flat.a
-flat.a
-flat.a
-flat.a
-flat.a
-flat.a
-flat.a
-flat.a
-forward.r
-forward.r
-forward.r
-forward.r
-forward.r
-forward.r
-forward.r
-forward.r
-forward.r
-forward.r
-fundamental.a
-fundamental.a
-fundamental.a
-fundamental.a
-fundamental.a
-fundamental.a
-fundamental.a
-fundamental.a
-fundamental.a
-fundamental.a
-get.v
-get.v
-get.v
-get.v
-get.v
-get.v
-get.v
-get.v
-get.v
-get.v
-hold.v
-hold.v
-hold.v
-hold.v
-hold.v
-hold.v
-hold.v
-hold.v
-hold.v
-hold.v
-informal.a
-informal.a
-informal.a
-informal.a
-informal.a
-informal.a
-informal.a
-informal.a
-informal.a
-informal.a
-inner.a
-inner.a
-inner.a
-inner.a
-inner.a
-inner.a
-inner.a
-inner.a
-inner.a
-inner.a
-investigator.n
-investigator.n
-investigator.n
-investigator.n
-investigator.n
-investigator.n
-investigator.n
-investigator.n
-investigator.n
-investigator.n
-letter.n
-letter.n
-letter.n
-letter.n
-letter.n
-letter.n
-letter.n
-letter.n
-letter.n
-letter.n
-loud.a
-loud.a
-loud.a
-loud.a
-loud.a
-loud.a
-loud.a
-loud.a
-loud.a
-loud.a
-mad.a
-mad.a
-mad.a
-mad.a
-mad.a
-mad.a
-mad.a
-mad.a
-mad.a
-mad.a
-make.v
-make.v
-make.v
-make.v
-make.v
-make.v
-make.v
-make.v
-make.v
-make.v
-mission.n
-mission.n
-mission.n
-mission.n
-mission.n
-mission.n
-mission.n
-mission.n
-mission.n
-mission.n
-near.r
-near.r
-near.r
-near.r
-near.r
-near.r
-near.r
-near.r
-near.r
-near.r
-open.a
-open.a
-open.a
-open.a
-open.a
-open.a
-open.a
-open.a
-open.a
-open.a
-pot.n
-pot.n
-pot.n
-pot.n
-pot.n
-pot.n
-pot.n
-pot.n
-pot.n
-pot.n
-profound.a
-profound.a
-profound.a
-profound.a
-profound.a
-profound.a
-profound.a
-profound.a
-profound.a
-profound.a
-prominent.a
-prominent.a
-prominent.a
-prominent.a
-prominent.a
-prominent.a
-prominent.a
-prominent.a
-prominent.a
-prominent.a
-pull.v
-pull.v
-pull.v
-pull.v
-pull.v
-pull.v
-pull.v
-pull.v
-pull.v
-pull.v
-range.n
-range.n
-range.n
-range.n
-range.n
-range.n
-range.n
-range.n
-range.n
-range.n
-rather.r
-rather.r
-rather.r
-rather.r
-rather.r
-rather.r
-rather.r
-rather.r
-rather.r
-rather.r
-render.v
-render.v
-render.v
-render.v
-render.v
-render.v
-render.v
-render.v
-render.v
-render.v
-rhythm.n
-rhythm.n
-rhythm.n
-rhythm.n
-rhythm.n
-rhythm.n
-rhythm.n
-rhythm.n
-rhythm.n
-rhythm.n
-scene.n
-scene.n
-scene.n
-scene.n
-scene.n
-scene.n
-scene.n
-scene.n
-scene.n
-scene.n
-serious.a
-serious.a
-serious.a
-serious.a
-serious.a
-serious.a
-serious.a
-serious.a
-serious.a
-serious.a
-shade.n
-shade.n
-shade.n
-shade.n
-shade.n
-shade.n
-shade.n
-shade.n
-shade.n
-shade.n
-so.r
-so.r
-so.r
-so.r
-so.r
-so.r
-so.r
-so.r
-so.r
-so.r
-soft.a
-soft.a
-soft.a
-soft.a
-soft.a
-soft.a
-soft.a
-soft.a
-soft.a
-soft.a
-soil.n
-soil.n
-soil.n
-soil.n
-soil.n
-soil.n
-soil.n
-soil.n
-soil.n
-soil.n
-steady.a
-steady.a
-steady.a
-steady.a
-steady.a
-steady.a
-steady.a
-steady.a
-steady.a
-steady.a
-stiff.a
-stiff.a
-stiff.a
-stiff.a
-stiff.a
-stiff.a
-stiff.a
-stiff.a
-stiff.a
-stiff.a
-strange.a
-strange.a
-strange.a
-strange.a
-strange.a
-strange.a
-strange.a
-strange.a
-strange.a
-strange.a
-strike.v
-strike.v
-strike.v
-strike.v
-strike.v
-strike.v
-strike.v
-strike.v
-strike.v
-strike.v
-suspect.v
-suspect.v
-suspect.v
-suspect.v
-suspect.v
-suspect.v
-suspect.v
-suspect.v
-suspect.v
-suspect.v
-tender.a
-tender.a
-tender.a
-tender.a
-tender.a
-tender.a
-tender.a
-tender.a
-tender.a
-tender.a
-test.n
-test.n
-test.n
-test.n
-test.n
-test.n
-test.n
-test.n
-test.n
-test.n
-throw.v
-throw.v
-throw.v
-throw.v
-throw.v
-throw.v
-throw.v
-throw.v
-throw.v
-throw.v
-tremendous.a
-tremendous.a
-tremendous.a
-tremendous.a
-tremendous.a
-tremendous.a
-tremendous.a
-tremendous.a
-tremendous.a
-tremendous.a
-true.a
-true.a
-true.a
-true.a
-true.a
-true.a
-true.a
-true.a
-true.a
-true.a
-truly.r
-truly.r
-truly.r
-truly.r
-truly.r
-truly.r
-truly.r
-truly.r
-truly.r
-truly.r
-vital.a
-vital.a
-vital.a
-vital.a
-vital.a
-vital.a
-vital.a
-vital.a
-vital.a
-vital.a
-worldwide.a
-worldwide.a
-worldwide.a
-worldwide.a
-worldwide.a
-worldwide.a
-worldwide.a
-worldwide.a
-worldwide.a
-worldwide.a
-yet.r
-yet.r
-yet.r
-yet.r
-yet.r
-yet.r
-yet.r
-yet.r
-yet.r
-yet.r
-blow.n
-blow.n
-blow.n
-blow.n
-blow.n
-blow.n
-blow.n
-blow.n
-blow.n
-blow.n
-board.n
-board.n
-board.n
-board.n
-board.n
-board.n
-board.n
-board.n
-board.n
-board.n
-cap.n
-cap.n
-cap.n
-cap.n
-cap.n
-cap.n
-cap.n
-cap.n
-cap.n
-cap.n
-change.v
-change.v
-change.v
-change.v
-change.v
-change.v
-change.v
-change.v
-change.v
-change.v
-charge.n
-charge.n
-charge.n
-charge.n
-charge.n
-charge.n
-charge.n
-charge.n
-charge.n
-charge.n
-execution.n
-execution.n
-execution.n
-execution.n
-execution.n
-execution.n
-execution.n
-execution.n
-execution.n
-execution.n
-fall.v
-fall.v
-fall.v
-fall.v
-fall.v
-fall.v
-fall.v
-fall.v
-fall.v
-fall.v
-figure.n
-figure.n
-figure.n
-figure.n
-figure.n
-figure.n
-figure.n
-figure.n
-figure.n
-figure.n
-fire.v
-fire.v
-fire.v
-fire.v
-fire.v
-fire.v
-fire.v
-fire.v
-fire.v
-fire.v
-function.n
-function.n
-function.n
-function.n
-function.n
-function.n
-function.n
-function.n
-function.n
-function.n
-jam.n
-jam.n
-jam.n
-jam.n
-jam.n
-jam.n
-jam.n
-jam.n
-jam.n
-jam.n
-lead.n
-lead.n
-lead.n
-lead.n
-lead.n
-lead.n
-lead.n
-lead.n
-lead.n
-lead.n
-paper.n
-paper.n
-paper.n
-paper.n
-paper.n
-paper.n
-paper.n
-paper.n
-paper.n
-paper.n
-pass.v
-pass.v
-pass.v
-pass.v
-pass.v
-pass.v
-pass.v
-pass.v
-pass.v
-pass.v
-poor.a
-poor.a
-poor.a
-poor.a
-poor.a
-poor.a
-poor.a
-poor.a
-poor.a
-poor.a
-rest.n
-rest.n
-rest.n
-rest.n
-rest.n
-rest.n
-rest.n
-rest.n
-rest.n
-rest.n
-right.r
-right.r
-right.r
-right.r
-right.r
-right.r
-right.r
-right.r
-right.r
-right.r
-ring.n
-ring.n
-ring.n
-ring.n
-ring.n
-ring.n
-ring.n
-ring.n
-ring.n
-ring.n
-scrap.n
-scrap.n
-scrap.n
-scrap.n
-scrap.n
-scrap.n
-scrap.n
-scrap.n
-scrap.n
-scrap.n
-secret.a
-secret.a
-secret.a
-secret.a
-secret.a
-secret.a
-secret.a
-secret.a
-secret.a
-secret.a
-shot.n
-shot.n
-shot.n
-shot.n
-shot.n
-shot.n
-shot.n
-shot.n
-shot.n
-shot.n
-show.v
-show.v
-show.v
-show.v
-show.v
-show.v
-show.v
-show.v
-show.v
-show.v
-wind.v
-wind.v
-wind.v
-wind.v
-wind.v
-wind.v
-wind.v
-wind.v
-wind.v
-wind.v
-work.v
-work.v
-work.v
-work.v
-work.v
-work.v
-work.v
-work.v
-work.v
-work.v
+bright.a bright 14
+bright.a brighter 23
+bright.a bright 14
+bright.a bright 3
+bright.a brightest 31
+bright.a brightest 38
+bright.a bright 12
+bright.a bright 5
+bright.a bright 4
+bright.a bright 14
+film.n films 8
+film.n film 12
+film.n film 40
+film.n film 6
+film.n film 7
+film.n film 3
+film.n films 26
+film.n film 2
+film.n film 24
+film.n films 8
+take.v taking 13
+take.v took 15
+take.v tak 4
+take.v takes 17
+take.v tak 3
+take.v tak 5
+take.v took 3
+take.v tak 26
+take.v tak 8
+take.v took 16
+tight.r tight 7
+tight.r tight 6
+tight.r tight 9
+tight.r tight 5
+tight.r tight 26
+tight.r tight 15
+tight.r tight 5
+tight.r tight 10
+tight.r tight 8
+tight.r tight 7
+bar.n bar 7
+bar.n bar 31
+bar.n bar 12
+bar.n bar 7
+bar.n bars 3
+bar.n bar 17
+bar.n bar 31
+bar.n bar 24
+bar.n bars 25
+bar.n.v bar 24
+cross.n cross 16
+cross.n cross 4
+cross.n cross 9
+cross.n cross 4
+cross.n cross 28
+cross.n cross 17
+cross.n cross 31
+cross.n cross 26
+cross.n cross 8
+cross.n.a cross 38
+finally.r finally 21
+finally.r Finally 1
+finally.r finally 30
+finally.r Finally 1
+finally.r finally 32
+finally.r Finally 1
+finally.r finally 22
+finally.r Finally 1
+finally.r Finally 1
+finally.r Finally 1
+find.v foun 20
+find.v fin 11
+find.v foun 8
+find.v fin 13
+find.v foun 10
+find.v fin 29
+find.v fin 11
+find.v fin 12
+find.v finds 3
+find.v foun 25
+fix.v fix 11
+fix.v fix 20
+fix.v fixing 19
+fix.v fix 20
+fix.v fix 29
+fix.v fix 39
+fix.v fix 24
+fix.v fix 12
+fix.v fix 5
+fix.v fix 19
+manage.v manag 28
+manage.v manag 32
+manage.v managing 19
+manage.v manag 22
+manage.v manag 35
+manage.v manag 16
+manage.v manag 23
+manage.v manag 6
+manage.v manag 5
+manage.v manag 5
+neat.a neat 5
+neat.a neatest 5
+neat.a neater 19
+neat.a neat 11
+neat.a neat 22
+neat.a neat 42
+neat.a neat 9
+neat.a neat 9
+neat.a neat 18
+neat.a neat 34
+rich.a ric 9
+rich.a ric 21
+rich.a ric 12
+rich.a ric 19
+rich.a ric 15
+rich.a ric 40
+rich.a richer 15
+rich.a ric 5
+rich.a Ric 1
+rich.a ric 47
+severely.r severely 18
+severely.r severely 19
+severely.r severely 15
+severely.r severely 4
+severely.r severely 15
+severely.r severely 16
+severely.r severely 4
+severely.r severely 22
+severely.r severely 22
+severely.r severely 5
+stand.n.v stan 12
+stand.n.v stan 3
+stand.n.v stan 66
+stand.n.v stands 11
+stand.n.v stands 3
+stand.n.v stands 14
+stand.n stands 43
+stand.n stan 2
+stand.n stan 12
+stand.n stan 9
+well.r well 33
+well.r well 5
+well.r well 13
+well.r well 13
+well.r well 18
+well.r well 19
+well.r Well 1
+well.r well 13
+well.r Well 1
+well.r Well 1
+wild.a wil 26
+wild.a wil 17
+wild.a wil 12
+wild.a wil 34
+wild.a wil 6
+wild.a wil 14
+wild.a wil 13
+wild.a wil 30
+wild.a wil 13
+wild.a.n wil 12
+can.n can 10
+can.n can 14
+can.n cans 24
+can.n cans 16
+can.n cans 10
+can.n cans 7
+can.n cans 10
+can.n cans 8
+can.n cans 12
+can.n can 38
+dark.n rk 38
+dark.n rk 12
+dark.n rk 7
+dark.n rk 14
+dark.n rk 19
+dark.n rk 37
+dark.n rk 16
+dark.n rk 31
+dark.n rk 31
+dark.n rk 14
+examination.n xamination 4
+examination.n xamination 4
+examination.n xamination 6
+examination.n xamination 8
+examination.n xamination 10
+examination.n xamination 39
+examination.n xamination 18
+examination.n EXAMINATION 1
+examination.n xamination 28
+examination.n xaminations 13
+fear.v fear 2
+fear.v fearing 6
+fear.v fears 2
+fear.v fears 3
+fear.v fear 16
+fear.v fear 34
+fear.v fear 24
+fear.v fear 10
+fear.v fear 10
+fear.v fear 4
+forget.v forget 3
+forget.v forgotten 9
+forget.v forget 3
+forget.v forget 26
+forget.v forgot 29
+forget.v forget 4
+forget.v forgotten 31
+forget.v forgotten 12
+forget.v forgot 9
+forget.v forget 3
+gall.n gall 44
+gall.n gall 4
+gall.n gall 10
+gall.n gall 6
+gall.n galls 2
+gall.n gall 13
+gall.n gall 6
+gall.n gall 15
+gall.n Galls 1
+gall.n gall 15
+grim.a grim 13
+grim.a grim 11
+grim.a grim 19
+grim.a grim 18
+grim.a grim 6
+grim.a grim 4
+grim.a grim 6
+grim.a grim 8
+grim.a grim 8
+grim.a grim 6
+lie.v li 9
+lie.v lies 47
+lie.v li 2
+lie.v lay 16
+lie.v lies 2
+lie.v li 6
+lie.v lay 26
+lie.v lying 4
+lie.v lying 7
+lie.v lying 23
+nasty.a nasty 31
+nasty.a nasty 12
+nasty.a nasty 10
+nasty.a nasty 5
+nasty.a nasty 28
+nasty.a nasty 10
+nasty.a nasty 27
+nasty.a nasty 7
+nasty.a nasty 24
+nasty.a nasty 9
+nearly.r nearly 13
+nearly.r nearly 8
+nearly.r nearly 32
+nearly.r nearly 40
+nearly.r nearly 16
+nearly.r nearly 4
+nearly.r nearly 14
+nearly.r nearly 37
+nearly.r nearly 26
+nearly.r nearly 21
+outdoor.a outdoor 37
+outdoor.a outdoor 56
+outdoor.a Outdoor 1
+outdoor.a outdoor 40
+outdoor.a outdoor 8
+outdoor.a outdoor 22
+outdoor.a outdoor 7
+outdoor.a outdoor 15
+outdoor.a outdoor 31
+outdoor.a outdoor 23
+reasonable.a reasonabl 26
+reasonable.a reasonabl 11
+reasonable.a reasonabl 23
+reasonable.a reasonabl 2
+reasonable.a reasonabl 23
+reasonable.a reasonabl 15
+reasonable.a reasonabl 26
+reasonable.a reasonabl 17
+reasonable.a reasonabl 19
+reasonable.a reasonabl 37
+rough.a roug 47
+rough.a roug 11
+rough.a roug 8
+rough.a roug 3
+rough.a roug 23
+rough.a Roug 1
+rough.a roug 6
+rough.a roug 18
+rough.a roug 14
+rough.a roug 9
+run.v run 27
+run.v running 11
+run.v ran 22
+run.v run 9
+run.v run 14
+run.v running 26
+run.v ran 8
+run.v runs 10
+run.v runs 18
+run.v run 5
+side.n si 30
+side.n si 3
+side.n si 12
+side.n si 7
+side.n si 9
+side.n si 10
+side.n si 3
+side.n si 19
+side.n si 17
+side.n si 14
+tell.v tol 25
+tell.v tell 4
+tell.v tell 48
+tell.v tell 5
+tell.v tol 14
+tell.v tell 12
+tell.v tol 2
+tell.v tol 6
+tell.v tell 25
+tell.v tells 10
+terrible.a terribl 10
+terrible.a terribl 9
+terrible.a terribl 8
+terrible.a terribl 5
+terrible.a terribl 57
+terrible.a terribl 4
+terrible.a terribl 6
+terrible.a terribl 17
+terrible.a terribl 11
+terrible.a terribl 14
+think.v think 11
+think.v thinks 2
+think.v think 5
+think.v think 5
+think.v thought 14
+think.v think 2
+think.v think 17
+think.v think 22
+think.v thought 19
+think.v think 3
+thus.r thus 20
+thus.r thus 21
+thus.r Thus 1
+thus.r thus 29
+thus.r thus 6
+thus.r thus 4
+thus.r thus 43
+thus.r thus 8
+thus.r Thus 1
+thus.r thus 14
+wind.n win 3
+wind.n win 29
+wind.n win 7
+wind.n win 31
+wind.n Win 1
+wind.n win 14
+wind.n winds 3
+wind.n win 5
+wind.n win 28
+wind.n winds 60
+charge.v charg 4
+charge.v charges 15
+charge.v charg 7
+charge.v charg 13
+charge.v charg 14
+charge.v charg 35
+charge.v charg 23
+charge.v charg 7
+charge.v charg 5
+charge.v charg 10
+civil.a civil 19
+civil.a civil 7
+civil.a civil 8
+civil.a civil 31
+civil.a civil 15
+civil.a civil 27
+civil.a civil 11
+civil.a civil 25
+civil.a civil 10
+civil.a civil 2
+clean.v cleaning 6
+clean.v clean 10
+clean.v clean 19
+clean.v cleaning 10
+clean.v clean 20
+clean.v clean 5
+clean.v clean 21
+clean.v clean 6
+clean.v clean 8
+clean.v clean 6
+coach.n coac 36
+coach.n coac 14
+coach.n coac 21
+coach.n coac 3
+coach.n coaches 19
+coach.n coaches 16
+coach.n coac 3
+coach.n coaches 3
+coach.n coac 6
+coach.n coac 13
+dry.a ry 17
+dry.a ry 25
+dry.a ry 5
+dry.a ry 12
+dry.a ry 5
+dry.a ry 10
+dry.a ry 15
+dry.a ry 17
+dry.a ry 30
+dry.a ry 6
+full.a full 48
+full.a full 6
+full.a full 13
+full.a full 8
+full.a full 19
+full.a full 11
+full.a full 7
+full.a full 17
+full.a full 6
+full.a full 30
+heap.n ps 24
+heap.n ps 8
+heap.n p 16
+heap.n p 19
+heap.n p 15
+heap.n p 25
+heap.n p 19
+heap.n p 8
+heap.n p 18
+heap.n p 7
+job.n job 7
+job.n job 2
+job.n job 8
+job.n job 29
+job.n job 11
+job.n job 14
+job.n job 8
+job.n job 9
+job.n Job 1
+job.n job 31
+late.r lat 32
+late.r lat 9
+late.r lat 6
+late.r lat 3
+late.r lat 2
+late.r lat 10
+late.r lat 8
+late.r lat 2
+late.r lat 3
+late.r lat 3
+new.a new 10
+new.a new 8
+new.a new 35
+new.a new 41
+new.a new 5
+new.a new 24
+new.a new 17
+new.a new 9
+new.a new 17
+new.a new 19
+often.r often 13
+often.r often 12
+often.r often 10
+often.r often 5
+often.r often 9
+often.r often 16
+often.r often 6
+often.r often 12
+often.r often 10
+often.r often 16
+only.r only 4
+only.r only 2
+only.r only 11
+only.r only 5
+only.r only 6
+only.r only 33
+only.r only 5
+only.r Only 1
+only.r only 4
+only.r only 15
+pulse.n pulses 2
+pulse.n puls 7
+pulse.n puls 22
+pulse.n puls 21
+pulse.n pulses 14
+pulse.n pulses 6
+pulse.n pulses 40
+pulse.n pulses 25
+pulse.n pulses 12
+pulse.n puls 14
+put.v put 8
+put.v put 6
+put.v Put 1
+put.v put 14
+put.v put 27
+put.v put 2
+put.v put 17
+put.v put 13
+put.v put 10
+put.v put 12
+really.r really 11
+really.r really 18
+really.r really 5
+really.r really 15
+really.r really 11
+really.r really 5
+really.r really 4
+really.r really 2
+really.r really 12
+really.r really 19
+return.v return 12
+return.v return 2
+return.v return 3
+return.v return 4
+return.v return 29
+return.v return 13
+return.v returning 18
+return.v returning 5
+return.v return 12
+return.v returns 9
+shed.v s 15
+shed.v s 14
+shed.v sheds 4
+shed.v sheds 7
+shed.v shedding 18
+shed.v s 7
+shed.v s 18
+shed.v s 17
+shed.v s 3
+shed.v s 3
+softly.r softly 19
+softly.r softly 18
+softly.r softly 19
+softly.r softly 22
+softly.r softly 4
+softly.r softly 4
+softly.r softly 7
+softly.r softly 4
+softly.r softly 9
+softly.r softly 10
+special.a special 5
+special.a special 2
+special.a special 28
+special.a special 4
+special.a special 14
+special.a special 20
+special.a special 2
+special.a special 12
+special.a special 24
+special.a special 6
+way.n way 35
+way.n way 5
+way.n ways 7
+way.n ways 25
+way.n way 3
+way.n way 18
+way.n way 28
+way.n way 3
+way.n way 30
+way.n way 6
+about.r bout 3
+about.r bout 2
+about.r bout 15
+about.r bout 3
+about.r bout 7
+about.r bout 14
+about.r bout 4
+about.r bout 14
+about.r bout 5
+about.r bout 19
+bug.n bugs 16
+bug.n bug 3
+bug.n bugs 18
+bug.n bug 8
+bug.n bug 16
+bug.n bug 6
+bug.n bug 4
+bug.n bugs 27
+bug.n bugs 13
+bug.n bug 13
+bull.n bull 15
+bull.n bull 2
+bull.n bull 13
+bull.n bull 23
+bull.n bull 6
+bull.n bull 7
+bull.n bulls 3
+bull.n bull 5
+bull.n bull 29
+bull.n bull 6
+education.n ucation 8
+education.n ucation 26
+education.n ucation 25
+education.n ucation 22
+education.n ucation 6
+education.n ucation 28
+education.n ucation 18
+education.n ucation 4
+education.n ucation 11
+education.n ucation 13
+girl.n girl 15
+girl.n girl 12
+girl.n girls 5
+girl.n girl 7
+girl.n girl 10
+girl.n girl 9
+girl.n girl 5
+girl.n girl 17
+girl.n girls 9
+girl.n Girls 41
+good.a goo 6
+good.a goo 5
+good.a goo 11
+good.a goo 2
+good.a goo 4
+good.a goo 5
+good.a goo 4
+good.a goo 4
+good.a goo 5
+good.a goo 36
+hard.r r 4
+hard.r r 39
+hard.r r 5
+hard.r r 18
+hard.r r 22
+hard.r r 8
+hard.r r 25
+hard.r r 7
+hard.r r 12
+hard.r r 11
+heavy.a vy 4
+heavy.a vy 2
+heavy.a vy 6
+heavy.a vy 8
+heavy.a vy 6
+heavy.a viest 20
+heavy.a vy 5
+heavy.a vy 4
+heavy.a vy 12
+heavy.a vy 20
+instead.r inst 6
+instead.r Inst 1
+instead.r inst 21
+instead.r inst 16
+instead.r inst 16
+instead.r inst 12
+instead.r inst 30
+instead.r inst 18
+instead.r Inst 1
+instead.r inst 20
+live.a liv 13
+live.a liv 5
+live.a liv 3
+live.a liv 10
+live.a liv 13
+live.a liv 2
+live.a liv 9
+live.a liv 9
+live.a liv 15
+live.a liv 5
+mass.n masses 6
+mass.n mass 6
+mass.n mass 11
+mass.n masses 9
+mass.n mass 6
+mass.n masses 28
+mass.n masses 8
+mass.n mass 9
+mass.n mass 7
+mass.n mass 6
+match.n matc 29
+match.n matches 20
+match.n matc 14
+match.n matc 21
+match.n matc 4
+match.n matc 14
+match.n matc 7
+match.n matc 16
+match.n matc 6
+match.n matc 4
+mood.n moods 23
+mood.n moo 10
+mood.n moo 9
+mood.n moo 34
+mood.n moo 6
+mood.n moo 20
+mood.n moods 34
+mood.n moods 26
+mood.n moods 25
+mood.n moo 14
+phone.n phon 5
+phone.n phon 8
+phone.n phon 6
+phone.n phon 38
+phone.n phon 40
+phone.n phon 10
+phone.n phon 46
+phone.n phon 16
+phone.n phon 24
+phone.n phon 15
+post.n posts 4
+post.n post 14
+post.n posts 5
+post.n posts 9
+post.n post 15
+post.n post 15
+post.n post 19
+post.n post 12
+post.n post 3
+post.n post 9
+pound.n poun 13
+pound.n pounds 7
+pound.n poun 7
+pound.n Poun 4
+pound.n pounds 26
+pound.n poun 3
+pound.n poun 24
+pound.n poun 18
+pound.n poun 12
+pound.n poun 16
+raw.a raw 6
+raw.a raw 10
+raw.a raw 5
+raw.a raw 21
+raw.a raw 12
+raw.a raw 2
+raw.a raw 2
+raw.a raw 5
+raw.a raw 20
+raw.a raw 17
+remainder.n remainders 20
+remainder.n remainder 20
+remainder.n remainder 18
+remainder.n remainder 30
+remainder.n remainder 2
+remainder.n remainder 11
+remainder.n remainder 10
+remainder.n remainder 19
+remainder.n remainder 28
+remainder.n remainder 20
+rude.a ru 30
+rude.a ru 36
+rude.a ru 5
+rude.a ru 13
+rude.a ru 6
+rude.a ruder 8
+rude.a ru 21
+rude.a ru 30
+rude.a ru 10
+rude.a ru 10
+saint.n saint 5
+saint.n saint 31
+saint.n saint 12
+saint.n saints 6
+saint.n saint 6
+saint.n saint 10
+saint.n saint 23
+saint.n saint 8
+saint.n saint 22
+saint.n saint 16
+still.a still 10
+still.a still 20
+still.a still 7
+still.a still 48
+still.a still 12
+still.a still 16
+still.a still 3
+still.a still 10
+still.a still 8
+still.a still 12
+straight.a straight 11
+straight.a straight 39
+straight.a straight 23
+straight.a straight 5
+straight.a straight 11
+straight.a straight 6
+straight.a straight 14
+straight.a straight 15
+straight.a straight 18
+straight.a straight 9
+strain.n strain 5
+strain.n strain 5
+strain.n strain 9
+strain.n strains 9
+strain.n strains 4
+strain.n strains 13
+strain.n strain 24
+strain.n strain 23
+strain.n strain 9
+strain.n strains 14
+time.n tim 17
+time.n tim 8
+time.n tim 13
+time.n times 6
+time.n times 3
+time.n times 14
+time.n times 28
+time.n tim 11
+time.n tim 20
+time.n tim 7
+yard.n yar 7
+yard.n yar 11
+yard.n yards 23
+yard.n yar 5
+yard.n yards 23
+yard.n yar 13
+yard.n yards 42
+yard.n yar 4
+yard.n yar 17
+yard.n yar 12
+apparently.r pparently 5
+apparently.r pparently 12
+apparently.r pparently 25
+apparently.r pparently 4
+apparently.r pparently 7
+apparently.r pparently 6
+apparently.r pparently 4
+apparently.r pparently 5
+apparently.r pparently 13
+apparently.r Apparently 1
+around.r roun 10
+around.r roun 22
+around.r roun 30
+around.r roun 9
+around.r roun 10
+around.r roun 25
+around.r roun 19
+around.r roun 8
+around.r roun 15
+around.r roun 2
+away.r way 15
+away.r way 21
+away.r way 7
+away.r way 19
+away.r way 5
+away.r way 13
+away.r way 16
+away.r way 7
+away.r way 16
+away.r way 16
+blue.a blu 12
+blue.a blu 12
+blue.a blu 5
+blue.a blu 11
+blue.a blu 38
+blue.a blu 14
+blue.a blu 17
+blue.a blu 17
+blue.a blu 5
+blue.a blu 8
+check.v checking 18
+check.v check 5
+check.v check 5
+check.v check 13
+check.v check 5
+check.v check 3
+check.v Check 1
+check.v check 7
+check.v check 3
+check.v check 29
+clear.v clear 27
+clear.v clears 39
+clear.v clear 33
+clear.v clear 6
+clear.v clearing 6
+clear.v clears 15
+clear.v clear 11
+clear.v clear 4
+clear.v clear 8
+clear.v clear 13
+close.n clos 35
+close.n clos 21
+close.n clos 14
+close.n clos 14
+close.n clos 18
+close.n clos 22
+close.n clos 18
+close.n clos 6
+close.n clos 15
+close.n clos 16
+come.v coming 10
+come.v com 5
+come.v comes 3
+come.v coming 11
+come.v cam 2
+come.v com 25
+come.v comes 7
+come.v com 4
+come.v com 13
+come.v com 12
+cry.v cry 8
+cry.v cries 3
+cry.v cry 16
+cry.v cri 11
+cry.v crying 27
+cry.v cry 7
+cry.v cry 20
+cry.v cries 20
+cry.v cry 19
+cry.v crying 8
+dismiss.v ismiss 16
+dismiss.v ismiss 15
+dismiss.v ismiss 32
+dismiss.v ismiss 11
+dismiss.v ismiss 15
+dismiss.v ismiss 7
+dismiss.v ismisses 8
+dismiss.v ismiss 12
+dismiss.v ismiss 11
+dismiss.v ismiss 25
+draw.v raw 5
+draw.v rawn 6
+draw.v rawing 7
+draw.v rawn 4
+draw.v raw 6
+draw.v raw 6
+draw.v rawing 9
+draw.v rawn 31
+draw.v rawn 16
+draw.v rawn 12
+earlier.r rlier 34
+earlier.r rlier 8
+earlier.r rlier 9
+earlier.r rlier 3
+earlier.r rlier 20
+earlier.r rlier 10
+earlier.r Earlier 1
+earlier.r rlier 35
+earlier.r rlier 10
+earlier.r rlier 30
+entirely.r ntirely 17
+entirely.r ntirely 18
+entirely.r ntirely 18
+entirely.r ntirely 8
+entirely.r ntirely 24
+entirely.r ntirely 5
+entirely.r ntirely 14
+entirely.r ntirely 9
+entirely.r ntirely 4
+entirely.r ntirely 16
+forth.r fort 36
+forth.r fort 22
+forth.r fort 14
+forth.r fort 14
+forth.r fort 36
+forth.r fort 18
+forth.r fort 14
+forth.r fort 3
+forth.r fort 18
+forth.r fort 17
+fresh.a fres 14
+fresh.a fres 9
+fresh.a fres 25
+fresh.a fres 14
+fresh.a fres 21
+fresh.a fres 32
+fresh.a fres 6
+fresh.a fres 4
+fresh.a fres 2
+fresh.a fres 16
+go.v gon 3
+go.v went 13
+go.v go 4
+go.v go 3
+go.v going 18
+go.v go 3
+go.v going 17
+go.v going 21
+go.v go 3
+go.v go 14
+let.v let 22
+let.v let 13
+let.v let 8
+let.v letting 17
+let.v let 9
+let.v let 10
+let.v let 17
+let.v lets 10
+let.v letting 16
+let.v let 7
+liberal.a liberal 4
+liberal.a liberal 6
+liberal.a liberal 5
+liberal.a liberal 11
+liberal.a liberal 13
+liberal.a liberal 5
+liberal.a liberal 22
+liberal.a liberal 10
+liberal.a liberal 20
+liberal.a liberal 5
+light.a light 6
+light.a light 7
+light.a light 3
+light.a light 34
+light.a light 15
+light.a light 5
+light.a lightest 29
+light.a lighter 4
+light.a light 9
+light.a light 4
+likewise.r likewis 21
+likewise.r likewis 7
+likewise.r likewis 4
+likewise.r likewis 17
+likewise.r likewis 7
+likewise.r likewis 5
+likewise.r likewis 11
+likewise.r likewis 12
+likewise.r likewis 4
+likewise.r likewis 23
+now.r now 3
+now.r Now 1
+now.r now 6
+now.r Now 1
+now.r now 4
+now.r now 3
+now.r now 5
+now.r now 2
+now.r now 12
+now.r now 15
+order.v order 28
+order.v order 6
+order.v order 23
+order.v order 24
+order.v order 6
+order.v order 3
+order.v ordering 4
+order.v order 9
+order.v order 7
+order.v order 4
+possibly.r possibly 11
+possibly.r possibly 11
+possibly.r possibly 21
+possibly.r possibly 37
+possibly.r possibly 25
+possibly.r possibly 28
+possibly.r Possibly 1
+possibly.r possibly 16
+possibly.r possibly 12
+possibly.r possibly 32
+quick.a quick 7
+quick.a quick 8
+quick.a quick 21
+quick.a quick 2
+quick.a quick 14
+quick.a quick 28
+quick.a quick 6
+quick.a quick 19
+quick.a quick 4
+quick.a quick 2
+see.v s 4
+see.v s 11
+see.v s 4
+see.v s 21
+see.v s 19
+see.v s 6
+see.v s 6
+see.v s 7
+see.v s 5
+see.v saw 3
+shortly.r shortly 10
+shortly.r shortly 17
+shortly.r shortly 8
+shortly.r shortly 12
+shortly.r Shortly 1
+shortly.r shortly 10
+shortly.r shortly 12
+shortly.r shortly 2
+shortly.r shortly 27
+shortly.r shortly 9
+skip.v skipp 16
+skip.v skipping 17
+skip.v skip 27
+skip.v skipping 9
+skip.v skipp 15
+skip.v skip 10
+skip.v skip 28
+skip.v skip 6
+skip.v skipp 14
+skip.v skips 4
+solid.a soli 4
+solid.a soli 20
+solid.a soli 14
+solid.a soli 20
+solid.a soli 46
+solid.a soli 17
+solid.a soli 6
+solid.a soli 15
+solid.a soli 13
+solid.a soli 14
+strong.a strong 14
+strong.a strong 7
+strong.a strong 6
+strong.a strong 5
+strong.a strong 5
+strong.a strong 7
+strong.a strong 6
+strong.a strong 26
+strong.a strong 4
+strong.a strong 6
+suffer.v suffering 32
+suffer.v suffer 11
+suffer.v suffers 22
+suffer.v suffer 7
+suffer.v suffer 20
+suffer.v suffer 8
+suffer.v suffer 10
+suffer.v suffers 17
+suffer.v suffer 14
+suffer.v suffer 29
+tap.v tapping 14
+tap.v tapping 4
+tap.v tapping 21
+tap.v tapping 28
+tap.v tap 3
+tap.v tapp 8
+tap.v tapp 5
+tap.v tapp 14
+tap.v tap 3
+tap.v tapping 4
+therefore.r therefor 9
+therefore.r therefor 38
+therefore.r therefor 3
+therefore.r therefor 6
+therefore.r therefor 5
+therefore.r therefor 3
+therefore.r therefor 2
+therefore.r therefor 19
+therefore.r therefor 3
+therefore.r therefor 23
+touch.v touc 7
+touch.v touc 22
+touch.v touc 6
+touch.v touc 15
+touch.v touc 11
+touch.v touc 27
+touch.v touc 19
+touch.v touching 26
+touch.v touc 9
+touch.v touc 10
+worthy.a worthy 18
+worthy.a worthy 14
+worthy.a worthy 37
+worthy.a worthy 26
+worthy.a worthy 17
+worthy.a worthy 16
+worthy.a worthy 7
+worthy.a worthy 38
+worthy.a worthy 29
+worthy.a worthy 10
+account.n ccount 21
+account.n ccount 47
+account.n ccount 15
+account.n ccounts 35
+account.n ccounts 16
+account.n ccount 6
+account.n ccounts 12
+account.n ccounts 58
+account.n ccounts 18
+account.n ccount 28
+acquire.v cquires 5
+acquire.v cquir 17
+acquire.v cquir 16
+acquire.v cquir 5
+acquire.v cquir 20
+acquire.v cquir 15
+acquire.v cquir 36
+acquire.v cquir 12
+acquire.v cquir 9
+acquire.v cquir 16
+acute.a cut 19
+acute.a cut 15
+acute.a cut 13
+acute.a cut 9
+acute.a cut 9
+acute.a cut 8
+acute.a cut 16
+acute.a cut 27
+acute.a cut 57
+acute.a cut 6
+below.r below 4
+below.r below 19
+below.r below 17
+below.r below 50
+below.r below 15
+below.r Below 1
+below.r below 19
+below.r below 4
+below.r below 14
+below.r Below 1
+bring.v bring 7
+bring.v bringing 22
+bring.v bring 30
+bring.v brought 45
+bring.v brought 44
+bring.v bring 13
+bring.v bring 9
+bring.v brought 8
+bring.v brought 2
+bring.v bring 38
+burst.v Bursting 1
+burst.v bursting 19
+burst.v burst 27
+burst.v burst 13
+burst.v bursting 4
+burst.v burst 5
+burst.v burst 15
+burst.v bursting 12
+burst.v burst 13
+burst.v burst 8
+call.v calling 4
+call.v call 30
+call.v call 34
+call.v calling 16
+call.v call 4
+call.v call 2
+call.v call 16
+call.v call 4
+call.v call 29
+call.v call 8
+caravan.n caravan 4
+caravan.n caravan 4
+caravan.n caravan 26
+caravan.n caravan 3
+caravan.n caravans 6
+caravan.n caravans 14
+caravan.n caravan 12
+caravan.n caravan 18
+caravan.n caravan 11
+caravan.n caravan 6
+carry.v carri 22
+carry.v carry 22
+carry.v carry 13
+carry.v carri 5
+carry.v carri 24
+carry.v carry 7
+carry.v carrying 16
+carry.v carri 2
+carry.v carry 27
+carry.v carry 13
+clear.a clear 40
+clear.a clear 31
+clear.a clear 11
+clear.a clear 3
+clear.a clear 18
+clear.a clear 2
+clear.a clear 8
+clear.a clear 18
+clear.a clear 6
+clear.a clear 35
+close.r clos 35
+close.r clos 13
+close.r clos 12
+close.r clos 11
+close.r clos 14
+close.r clos 10
+close.r clos 35
+close.r clos 11
+close.r clos 32
+close.r clos 13
+closely.r closely 15
+closely.r closely 9
+closely.r closely 4
+closely.r closely 6
+closely.r closely 11
+closely.r closely 5
+closely.r closely 12
+closely.r closely 10
+closely.r closely 8
+closely.r closely 36
+decline.v clin 42
+decline.v clin 25
+decline.v clin 13
+decline.v clin 28
+decline.v clin 7
+decline.v clin 15
+decline.v clines 17
+decline.v clining 8
+decline.v clin 10
+decline.v clining 13
+drop.v ropp 4
+drop.v rop 14
+drop.v ropp 4
+drop.v rop 13
+drop.v rop 23
+drop.v ropp 25
+drop.v ropp 9
+drop.v ropping 19
+drop.v rop 20
+drop.v rop 15
+easy.a sier 7
+easy.a sy 4
+easy.a sier 5
+easy.a sy 9
+easy.a sy 10
+easy.a sier 8
+easy.a sy 23
+easy.a sy 11
+easy.a sy 8
+easy.a sy 19
+endure.v ndur 4
+endure.v ndur 7
+endure.v ndur 11
+endure.v ndur 12
+endure.v ndur 6
+endure.v nduring 7
+endure.v ndur 30
+endure.v ndur 14
+endure.v ndur 5
+endure.v ndur 18
+extended.a xten 28
+extended.a xten 5
+extended.a xten 32
+extended.a xten 29
+extended.a xten 16
+extended.a xten 22
+extended.a xten 17
+extended.a Exten 1
+extended.a xten 13
+extended.a xten 9
+external.a xternal 2
+external.a xternal 16
+external.a xternal 2
+external.a EXTERNAL 1
+external.a xternal 15
+external.a External 1
+external.a xternal 15
+external.a xternal 56
+external.a xternal 16
+external.a xternal 24
+field.n fiel 13
+field.n fields 15
+field.n fiel 12
+field.n fields 9
+field.n fields 2
+field.n fiel 23
+field.n fiel 14
+field.n fiel 15
+field.n fiel 29
+field.n fiel 34
+flat.a flat 21
+flat.a flat 19
+flat.a flat 27
+flat.a flat 5
+flat.a flat 17
+flat.a flat 16
+flat.a flat 9
+flat.a flat 31
+flat.a flat 6
+flat.a flat 4
+forward.r forwar 4
+forward.r forwar 7
+forward.r forwar 25
+forward.r forwar 4
+forward.r forwar 36
+forward.r forwar 22
+forward.r forwar 4
+forward.r forwar 8
+forward.r forwar 22
+forward.r forwar 3
+fundamental.a fundamental 25
+fundamental.a fundamental 19
+fundamental.a fundamental 9
+fundamental.a fundamental 16
+fundamental.a fundamental 21
+fundamental.a fundamental 4
+fundamental.a fundamental 20
+fundamental.a fundamental 24
+fundamental.a fundamental 6
+fundamental.a fundamental 45
+get.v getting 10
+get.v get 26
+get.v get 2
+get.v getting 9
+get.v get 16
+get.v get 31
+get.v get 25
+get.v getting 8
+get.v get 3
+get.v got 3
+hold.v olding 21
+hold.v ol 13
+hold.v l 19
+hold.v l 9
+hold.v l 9
+hold.v olding 9
+hold.v l 5
+hold.v olding 15
+hold.v l 26
+hold.v olding 11
+informal.a informal 22
+informal.a informal 10
+informal.a informal 8
+informal.a informal 12
+informal.a informal 4
+informal.a informal 5
+informal.a informal 18
+informal.a informal 27
+informal.a informal 6
+informal.a informal 7
+inner.a inner 46
+inner.a inner 15
+inner.a inner 24
+inner.a inner 21
+inner.a inner 16
+inner.a inner 51
+inner.a inner 16
+inner.a inner 24
+inner.a inner 23
+inner.a inner 20
+investigator.n investigators 2
+investigator.n investigators 34
+investigator.n investigators 15
+investigator.n investigators 21
+investigator.n investigator 23
+investigator.n investigators 10
+investigator.n investigators 2
+investigator.n investigators 4
+investigator.n investigators 7
+investigator.n investigator 12
+letter.n letter 20
+letter.n letters 3
+letter.n letters 31
+letter.n letter 4
+letter.n letters 15
+letter.n letters 38
+letter.n letters 24
+letter.n letters 6
+letter.n letters 33
+letter.n letter 6
+loud.a lou 72
+loud.a lou 40
+loud.a lou 35
+loud.a lou 11
+loud.a lou 3
+loud.a lou 16
+loud.a lou 7
+loud.a lou 5
+loud.a lou 16
+loud.a lou 12
+mad.a m 18
+mad.a m 4
+mad.a m 4
+mad.a m 5
+mad.a m 35
+mad.a m 18
+mad.a m 13
+mad.a m 5
+mad.a m 20
+mad.a m 35
+make.v m 18
+make.v mak 6
+make.v mak 24
+make.v m 9
+make.v mak 23
+make.v mak 15
+make.v mak 34
+make.v m 17
+make.v m 3
+make.v m 31
+mission.n mission 15
+mission.n mission 12
+mission.n mission 24
+mission.n mission 11
+mission.n mission 32
+mission.n mission 16
+mission.n mission 20
+mission.n mission 18
+mission.n missions 18
+mission.n missions 12
+near.r near 21
+near.r near 4
+near.r near 14
+near.r near 6
+near.r near 16
+near.r near 31
+near.r near 25
+near.r near 6
+near.r near 21
+near.r near 5
+open.a open 5
+open.a open 15
+open.a open 30
+open.a open 16
+open.a open 7
+open.a Open 1
+open.a open 25
+open.a open 14
+open.a open 35
+open.a Open 1
+pot.n pot 41
+pot.n pot 23
+pot.n pots 46
+pot.n pots 9
+pot.n pot 9
+pot.n pots 8
+pot.n pots 25
+pot.n pots 10
+pot.n pot 10
+pot.n pot 23
+profound.a profoun 6
+profound.a profoun 5
+profound.a profoun 10
+profound.a profoun 19
+profound.a profoun 21
+profound.a profoun 8
+profound.a profoun 11
+profound.a profoun 17
+profound.a profoun 25
+profound.a profoun 25
+prominent.a prominent 30
+prominent.a prominent 5
+prominent.a prominent 33
+prominent.a prominent 11
+prominent.a prominent 10
+prominent.a prominent 39
+prominent.a prominent 22
+prominent.a prominent 33
+prominent.a prominent 8
+prominent.a prominent 16
+pull.v pull 12
+pull.v pull 6
+pull.v pull 2
+pull.v pull 4
+pull.v pull 15
+pull.v pull 12
+pull.v pulls 4
+pull.v pull 8
+pull.v pull 25
+pull.v pull 3
+range.n rang 3
+range.n rang 5
+range.n rang 29
+range.n rang 15
+range.n rang 9
+range.n rang 14
+range.n rang 6
+range.n rang 41
+range.n rang 16
+range.n rang 21
+rather.r rather 9
+rather.r rather 12
+rather.r rather 11
+rather.r rather 41
+rather.r rather 29
+rather.r rather 11
+rather.r rather 14
+rather.r rather 20
+rather.r rather 13
+rather.r rather 29
+render.v render 7
+render.v render 11
+render.v render 18
+render.v rendering 20
+render.v render 38
+render.v render 20
+render.v rendering 19
+render.v render 38
+render.v renders 3
+render.v render 30
+rhythm.n rhythm 29
+rhythm.n rhythm 12
+rhythm.n rhythm 20
+rhythm.n rhythm 14
+rhythm.n rhythms 10
+rhythm.n rhythm 9
+rhythm.n rhythm 8
+rhythm.n rhythms 11
+rhythm.n rhythm 32
+rhythm.n rhythms 25
+scene.n scenes 24
+scene.n scen 4
+scene.n scen 47
+scene.n scen 11
+scene.n scen 2
+scene.n scen 8
+scene.n scenes 15
+scene.n scen 51
+scene.n scen 5
+scene.n scen 11
+serious.a serious 8
+serious.a serious 8
+serious.a serious 36
+serious.a serious 5
+serious.a serious 26
+serious.a serious 5
+serious.a serious 11
+serious.a serious 24
+serious.a serious 30
+serious.a serious 19
+shade.n s 28
+shade.n shades 16
+shade.n s 20
+shade.n shades 10
+shade.n s 5
+shade.n s 14
+shade.n shades 14
+shade.n s 15
+shade.n shades 13
+shade.n shades 27
+so.r so 18
+so.r so 40
+so.r so 17
+so.r so 35
+so.r so 9
+so.r so 32
+so.r So 1
+so.r so 26
+so.r so 19
+so.r so 38
+soft.a soft 43
+soft.a soft 14
+soft.a soft 8
+soft.a soft 5
+soft.a soft 31
+soft.a soft 15
+soft.a soft 26
+soft.a soft 37
+soft.a soft 25
+soft.a soft 22
+soil.n soil 14
+soil.n Soil 1
+soil.n soil 33
+soil.n soil 12
+soil.n soil 5
+soil.n soil 10
+soil.n soil 16
+soil.n soil 37
+soil.n soil 19
+soil.n soil 2
+steady.a steady 8
+steady.a steady 27
+steady.a steady 19
+steady.a steady 16
+steady.a Steady 1
+steady.a steady 5
+steady.a steady 29
+steady.a steady 19
+steady.a steady 11
+steady.a steady 31
+stiff.a stiff 20
+stiff.a stiff 10
+stiff.a stiff 2
+stiff.a stiff 20
+stiff.a stiff 40
+stiff.a stiff 7
+stiff.a stiff 16
+stiff.a Stiffer 1
+stiff.a stiff 8
+stiff.a stiff 7
+strange.a strang 4
+strange.a strang 28
+strange.a strang 10
+strange.a strang 13
+strange.a strang 9
+strange.a strang 7
+strange.a strang 22
+strange.a strang 18
+strange.a strang 10
+strange.a strang 43
+strike.v strik 14
+strike.v struck 3
+strike.v struck 14
+strike.v striking 43
+strike.v strik 4
+strike.v struck 5
+strike.v struck 8
+strike.v strikes 2
+strike.v strikes 23
+strike.v striking 15
+suspect.v suspect 10
+suspect.v suspect 27
+suspect.v suspect 24
+suspect.v suspect 3
+suspect.v suspect 2
+suspect.v Suspect 1
+suspect.v suspect 45
+suspect.v suspects 10
+suspect.v suspect 2
+suspect.v suspect 20
+tender.a tender 36
+tender.a tender 26
+tender.a tender 19
+tender.a tender 7
+tender.a tender 6
+tender.a tender 20
+tender.a tender 18
+tender.a tender 6
+tender.a tenderest 43
+tender.a tenderest 10
+test.n tests 16
+test.n tests 3
+test.n test 24
+test.n test 16
+test.n test 20
+test.n test 13
+test.n tests 21
+test.n test 3
+test.n tests 26
+test.n test 11
+throw.v throw 17
+throw.v throw 12
+throw.v throw 15
+throw.v thrown 21
+throw.v threw 13
+throw.v throwing 22
+throw.v threw 12
+throw.v throw 14
+throw.v throw 6
+throw.v threw 9
+tremendous.a tremendous 47
+tremendous.a tremendous 15
+tremendous.a tremendous 7
+tremendous.a tremendous 17
+tremendous.a tremendous 14
+tremendous.a tremendous 22
+tremendous.a tremendous 19
+tremendous.a tremendous 2
+tremendous.a tremendous 40
+tremendous.a tremendous 4
+true.a tru 5
+true.a tru 11
+true.a tru 23
+true.a tru 14
+true.a tru 73
+true.a tru 4
+true.a tru 28
+true.a tru 8
+true.a tru 9
+true.a tru 4
+truly.r truly 6
+truly.r truly 11
+truly.r truly 6
+truly.r truly 28
+truly.r truly 6
+truly.r truly 50
+truly.r truly 7
+truly.r Truly 1
+truly.r truly 3
+truly.r Truly 1
+vital.a vital 41
+vital.a vital 15
+vital.a vital 15
+vital.a vital 9
+vital.a vital 14
+vital.a vital 9
+vital.a vital 5
+vital.a vital 3
+vital.a vital 15
+vital.a vital 8
+worldwide.a worldwi 15
+worldwide.a worldwi 36
+worldwide.a worldwi 37
+worldwide.a worldwi 18
+worldwide.a worldwi 19
+worldwide.a worldwi 12
+worldwide.a worldwi 26
+worldwide.a worldwi 28
+worldwide.a worldwi 21
+worldwide.a worldwi 39
+yet.r yet 14
+yet.r Yet 1
+yet.r yet 8
+yet.r yet 14
+yet.r yet 6
+yet.r yet 21
+yet.r yet 4
+yet.r Yet 1
+yet.r yet 34
+yet.r yet 22
+blow.n blow 8
+blow.n blow 20
+blow.n blow 44
+blow.n blow 15
+blow.n blow 21
+blow.n blow 32
+blow.n blow 5
+blow.n blows 12
+blow.n blows 26
+blow.n blows 10
+board.n boar 17
+board.n boar 12
+board.n boar 12
+board.n boar 35
+board.n boar 18
+board.n boards 21
+board.n boar 12
+board.n boards 7
+board.n boar 6
+board.n boar 9
+cap.n cap 16
+cap.n cap 14
+cap.n cap 5
+cap.n cap 22
+cap.n cap 21
+cap.n cap 21
+cap.n caps 22
+cap.n caps 31
+cap.n cap 18
+cap.n cap 27
+change.v chang 13
+change.v chang 12
+change.v chang 5
+change.v chang 23
+change.v Chang 1
+change.v chang 36
+change.v changing 16
+change.v chang 27
+change.v chang 20
+change.v CHANGING 1
+charge.n charg 35
+charge.n charges 18
+charge.n charges 29
+charge.n charges 13
+charge.n charg 14
+charge.n charges 22
+charge.n charges 25
+charge.n charges 18
+charge.n charg 2
+charge.n charges 9
+execution.n xecution 8
+execution.n xecution 27
+execution.n xecutions 13
+execution.n xecution 16
+execution.n xecution 35
+execution.n xecution 8
+execution.n xecution 8
+execution.n xecution 23
+execution.n xecution 48
+execution.n xecution 41
+fall.v fall 30
+fall.v fell 15
+fall.v fallen 5
+fall.v falling 10
+fall.v fell 30
+fall.v fall 11
+fall.v fell 5
+fall.v fell 39
+fall.v fallen 8
+fall.v fell 18
+figure.n figur 3
+figure.n figures 4
+figure.n figures 3
+figure.n figures 9
+figure.n figures 19
+figure.n figures 20
+figure.n figures 9
+figure.n figur 42
+figure.n Figures 1
+figure.n figur 14
+fire.v fir 3
+fire.v fir 8
+fire.v fir 5
+fire.v fir 16
+fire.v fir 16
+fire.v fir 10
+fire.v fir 6
+fire.v fir 11
+fire.v fir 29
+fire.v fir 17
+function.n function 6
+function.n function 9
+function.n functions 2
+function.n Functions 1
+function.n function 9
+function.n function 15
+function.n function 6
+function.n function 8
+function.n function 3
+function.n function 43
+jam.n jam 13
+jam.n jam 18
+jam.n jam 18
+jam.n jam 3
+jam.n jams 32
+jam.n jams 9
+jam.n jams 22
+jam.n jams 6
+jam.n jams 20
+jam.n jam 29
+lead.n leads 15
+lead.n l 10
+lead.n l 9
+lead.n l 15
+lead.n leads 19
+lead.n l 27
+lead.n l 12
+lead.n leads 7
+lead.n l 35
+lead.n l 27
+paper.n paper 21
+paper.n paper 11
+paper.n paper 4
+paper.n paper 2
+paper.n paper 6
+paper.n paper 15
+paper.n papers 3
+paper.n papers 28
+paper.n papers 11
+paper.n paper 2
+pass.v pass 5
+pass.v pass 31
+pass.v pass 11
+pass.v passing 58
+pass.v pass 18
+pass.v passing 29
+pass.v passes 12
+pass.v pass 8
+pass.v pass 12
+pass.v pass 10
+poor.a poor 13
+poor.a poor 27
+poor.a poor 23
+poor.a poor 10
+poor.a poor 10
+poor.a poor 7
+poor.a poor 16
+poor.a poor 20
+poor.a poorer 10
+poor.a poor 7
+rest.n rest 37
+rest.n rest 2
+rest.n rest 10
+rest.n rest 5
+rest.n rest 9
+rest.n rest 12
+rest.n rest 3
+rest.n rest 42
+rest.n rest 31
+rest.n rest 2
+right.r right 12
+right.r right 9
+right.r right 4
+right.r right 23
+right.r right 18
+right.r right 14
+right.r right 12
+right.r right 11
+right.r Right 1
+right.r right 5
+ring.n ring 27
+ring.n ring 29
+ring.n rings 4
+ring.n ring 2
+ring.n ring 7
+ring.n ring 7
+ring.n ring 8
+ring.n ring 20
+ring.n rings 9
+ring.n ring 21
+scrap.n scrap 7
+scrap.n scrap 25
+scrap.n scrap 22
+scrap.n scraps 20
+scrap.n scraps 24
+scrap.n scrap 8
+scrap.n scrap 27
+scrap.n scrap 3
+scrap.n scraps 27
+scrap.n scrap 12
+secret.a secret 14
+secret.a secret 15
+secret.a secret 45
+secret.a secret 5
+secret.a secret 7
+secret.a secret 12
+secret.a secret 34
+secret.a secret 14
+secret.a secret 42
+secret.a secret 6
+shot.n shot 21
+shot.n shot 6
+shot.n shots 4
+shot.n shot 18
+shot.n shots 20
+shot.n shots 18
+shot.n shots 21
+shot.n shot 9
+shot.n shots 51
+shot.n shot 27
+show.v show 21
+show.v shown 10
+show.v show 1
+show.v shown 4
+show.v show 38
+show.v Showing 1
+show.v show 14
+show.v show 17
+show.v shown 6
+show.v shown 3
+wind.v Win 1
+wind.v win 13
+wind.v winding 7
+wind.v win 17
+wind.v winding 11
+wind.v win 4
+wind.v winding 14
+wind.v win 35
+wind.v win 11
+wind.v woun 18
+work.v working 7
+work.v work 33
+work.v work 14
+work.v work 3
+work.v work 54
+work.v work 16
+work.v working 12
+work.v work 31
+work.v working 34
+work.v working 8

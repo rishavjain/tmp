@@ -6,7 +6,7 @@ import sys
 import time, random
 from multiprocessing import Lock
 
-PLATFORM = 2
+PLATFORM = 'iceberg'
 
 if PLATFORM == 1:
     FILELIST = 'e:\\tmp\\filelist.txt'
@@ -18,10 +18,10 @@ elif PLATFORM == 2:
     JAVA_HEAP_MEMORY = '2g'
     COMMANDS_FILE = '../tmp/commands.txt'
 elif PLATFORM == 'iceberg':
-    FILELIST = '/fastdata/cop15rj/ukwac100/filelist.txt'
+    FILELIST = '/fastdata/cop15rj/ukwacpre/filelist.txt'
     STANFORD_CORENLP_PATH = '/home/cop15rj/lexsub/stanford-corenlp-full-2015-12-09'
     JAVA_HEAP_MEMORY = '2g'
-    COMMANDS_FILE = '/fastdata/cop15rj/ukwac100/commands.txt'
+    COMMANDS_FILE = '/fastdata/cop15rj/ukwacpre/commands.txt'
 
 if sys.platform.find('win') != -1:
     JAVA_CP_SEP = ';'
@@ -30,7 +30,7 @@ else:
 
 QSUB_MEM = '8G'
 QSUB_RMEM = '3G'
-QSUB_MAIL_OPTION = 'bea'
+QSUB_MAIL_OPTION = 'n'
 QSUB_MAIL_ADDRESS = 'rjain2@sheffield.ac.uk'
 QSUB_REDIRECT_SCRIPT = 'redirect.bash'
 
@@ -65,7 +65,8 @@ def run_parser(inputFile):
     print('parserCmd', ':', parserCmd)
 
     if PLATFORM == 'iceberg':
-        qsubLogFile = os.path.join(os.path.dirname(inputFile), 'log_' + os.path.basename(inputFile))
+        # qsubLogFile = os.path.join(os.path.dirname(inputFile), 'log_' + os.path.basename(inputFile))
+        qsubLogFile = os.path.join(os.path.dirname(inputFile), 'qsub_log')
         jobName = os.path.basename(inputFile)
         parserCmd = QSUB_CMD.format(qsubLogFile, jobName, parserCmd)
 
