@@ -6,7 +6,7 @@ thr = int(sys.argv[1])
 l = []
 
 try:
-    sys.stdin = open(sys.argv[2], 'r')
+    sys.stdin = open(sys.argv[2])
 except IndexError:
     print('using console input', file=sys.stderr)
 

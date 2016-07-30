@@ -14,8 +14,8 @@ elif PLATFORM == 2:
     OUT_PATH = '../tmp'
     GZ_INPUT = '../tmp/ukwac_subset_1M.txt.gz'
 elif PLATFORM == 'iceberg':
-    OUT_PATH = '/fastdata/cop15rj/ukwacpre'
-    GZ_INPUT = '/data/cop15rj/downloads/ukwac_preproc.gz'
+    OUT_PATH = '/data/cop15rj/ukwac100'
+    GZ_INPUT = '/data/cop15rj/downloads/ukwac_subset_100M.txt.gz'
 
 
 OUT_FILENAME = 'ukwac'

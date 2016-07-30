@@ -38,7 +38,7 @@ def read_conll(fh):
             tokens = [root]
         else:
             # if len(tok) == 7:
-           tokens.append((int(tok[0]), tok[1], int(tok[5]), tok[6]))
+            tokens.append((int(tok[0]), tok[1], int(tok[5]), tok[6]))
     if len(tokens) > 1:
         yield tokens
 
@@ -111,10 +111,9 @@ if __name__ == '__main__':
     try:
         sys.stdout = open(sys.argv[5], 'w')
     except IndexError:
-        print('using console ouput', file=sys.stderr)
+        print('using console output', file=sys.stderr)
 
-
-    vocab = set(read_vocab(open(vocab_file)).keys())
+    vocab = set(read_vocab(open(vocab_file, encoding='iso-8859-1')).keys())
     print("vocab:", len(vocab), file=sys.stderr)
 
     for i, sent in enumerate(read_conll(sys.stdin)):
@@ -144,4 +143,4 @@ if __name__ == '__main__':
             if h != '*root*': print(h, "_".join((rel, m)))
             print(m, "I_".join((rel, h)))
 
-    print('lines:',i,file=sys.stderr)
+    print('lines:', i, file=sys.stderr)

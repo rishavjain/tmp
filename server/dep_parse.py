@@ -18,10 +18,10 @@ elif PLATFORM == 2:
     JAVA_HEAP_MEMORY = '2g'
     COMMANDS_FILE = '../tmp/commands.txt'
 elif PLATFORM == 'iceberg':
-    FILELIST = '/fastdata/cop15rj/ukwacpre/filelist.txt'
+    FILELIST = '/data/cop15rj/ukwac100/filelist.txt'
     STANFORD_CORENLP_PATH = '/home/cop15rj/lexsub/stanford-corenlp-full-2015-12-09'
     JAVA_HEAP_MEMORY = '2g'
-    COMMANDS_FILE = '/fastdata/cop15rj/ukwacpre/commands.txt'
+    COMMANDS_FILE = '/data/cop15rj/ukwac100/commands.txt'
 
 if sys.platform.find('win') != -1:
     JAVA_CP_SEP = ';'
@@ -47,7 +47,7 @@ QSUB_REDIRECT_SCRIPT = os.path.join(os.path.dirname(os.path.realpath(sys.argv[0]
 QSUB_CMD = 'qsub -l mem=' + QSUB_MEM \
            + ' -l rmem=' + QSUB_RMEM \
            + ' -m ' + QSUB_MAIL_OPTION + ' -M ' + QSUB_MAIL_ADDRESS \
-           + ' -j y -o {0} -N {1} ' \
+           + ' -j y -o {0} -N {1} -terse ' \
            + QSUB_REDIRECT_SCRIPT + ' {2}'
 
 FILELIST = os.path.abspath(FILELIST)
@@ -65,8 +65,8 @@ def run_parser(inputFile):
     print('parserCmd', ':', parserCmd)
 
     if PLATFORM == 'iceberg':
-        # qsubLogFile = os.path.join(os.path.dirname(inputFile), 'log_' + os.path.basename(inputFile))
-        qsubLogFile = os.path.join(os.path.dirname(inputFile), 'qsub_log')
+        qsubLogFile = os.path.join(os.path.dirname(inputFile), 'log_' + os.path.basename(inputFile))
+        # qsubLogFile = os.path.join(os.path.dirname(inputFile), 'qsub_log')
         jobName = os.path.basename(inputFile)
         parserCmd = QSUB_CMD.format(qsubLogFile, jobName, parserCmd)
 

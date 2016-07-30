@@ -66,14 +66,18 @@ def calculate_contexts(tokens, targetIdx):
 
 
 TARGETS_FILE = '../evaluate/data/targets.txt'
-SUBSTITUTES_FILE = '../evaluate/data/substitutes.data'
+# SUBSTITUTES_FILE = '../evaluate/data/substitutes.data'
+SUBSTITUTES_FILE = '../data/2/wv'
+
+
 INPUT_CONLL_FILE = '../evaluate/data/sentences.txt.conll'
 # INPUT_FILE = 'evaluate/taskdata/trial/lexsub_trial.xml'
 
 OUTPUT_FILE_BEST = '../data/2/best.txt'
 OUTPUT_FILE_OOT = '../data/2/oot.txt'
 
-subsDict = pickle.load(open(SUBSTITUTES_FILE, 'rb'))
+# subsDict = pickle.load(open(SUBSTITUTES_FILE, 'rb'))
+subsDict = [line.strip().split()[0] for line in open(SUBSTITUTES_FILE, 'r').readlines()]
 # print('substitutes',':',substitutes)
 
 conllFile = open(INPUT_CONLL_FILE)
@@ -99,6 +103,8 @@ def targetidx_sentence(conll, target, pos):
 
 numsentences = 0
 
+numdump = []
+iD = 0
 for line in conllFile:
     sentence = []
     while line and line != '\n':
@@ -120,13 +126,13 @@ for line in conllFile:
     pos = lexelt.split('.')[1]
 
     if target not in w2vec:
-        # print('target word not in vocab: {}'.format(target))
-
-        if lexelt.split('.')[0] in w2vec:
-            # print('using the target word: {} instead of {}'.format(lexelt.split('.')[0], target))
-            target = lexelt.split('.')[0]
-        else:
-            continue
+        # # print('target word not in vocab: {}'.format(target))
+        #
+        # if lexelt.split('.')[0] in w2vec:
+        #     # print('using the target word: {} instead of {}'.format(lexelt.split('.')[0], target))
+        #     target = lexelt.split('.')[0]
+        # else:
+        continue
 
     wIdx = w2vec[target]
 
@@ -135,9 +141,10 @@ for line in conllFile:
 
     # print(contexts)
 
-    nSub = len(subsDict[lexelt.split('.')[0]])
+    # nSub = len(subsDict[lexelt.split('.')[0]])
     similarity = []
-    for i, sub in enumerate(subsDict[lexelt.split('.')[0]]):
+    # for i, sub in enumerate(subsDict[lexelt.split('.')[0]]):
+    for i, sub in enumerate(subsDict):
         if sub in w2vec:
             sIdx = w2vec[sub]
 
@@ -149,18 +156,25 @@ for line in conllFile:
                 if context in c2vec:
                     cIdx = c2vec[context]
                     cos += cosine(wvecs[sIdx], cvecs[cIdx])
-                    numcontexts += 1
+                numcontexts += 1
 
             similarity.append((i, cos/(numcontexts + 1.0)))
         # else:
             # print('substitute word not in vocab: {}'.format(sub))
 
     # print(similarity)
-    filtSubs = [subsDict[lexelt.split('.')[0]][i[0]] for i in sorted(similarity, key=lambda x: -x[1])[:11]]
+    similarity = sorted(similarity, key=lambda x: -x[1])[:10];
+    # filtSubs = [subsDict[lexelt.split('.')[0]][i[0]] for i in similarity]
+    filtSubs = [subsDict[i[0]] for i in similarity]
 
-    print(filtSubs)
-    print('{} {} :: {}'.format(lexelt, numsentences, str(filtSubs).strip('[\']').replace('\', \'', ';')))
-    bestFile.write('{} {} :: {}'.format(lexelt, numsentences, str(filtSubs).strip('[\']').replace('\', \'', ';')))
+    similarity = [i[1] for i in similarity]
+    while len(similarity) < 10:
+        similarity.append(0)
+    numdump.append(similarity)
+
+    print(lexelt, numsentences, filtSubs)
+    # print('{} {} :: {}'.format(lexelt, numsentences, str(filtSubs).strip('[\']').replace('\', \'', ';')))
+    bestFile.write('{} {} :: {}'.format(lexelt, numsentences, str(filtSubs[:3]).strip('[\']').replace('\', \'', ';')))
     bestFile.write('\n')
     ootFile.write('{} {} ::: {}'.format(lexelt, numsentences, str(filtSubs).strip('[\']').replace('\', \'', ';')))
     ootFile.write('\n')
@@ -184,3 +198,6 @@ for line in conllFile:
 
     # if numsentences == 10:
     #     break
+
+numdump2 = np.matrix(numdump)
+np.save('../data/2/np.dump', numdump2)
