@@ -6,6 +6,8 @@
       <sourceFolder url="file://$MODULE_DIR$/tmp" type="java-resource" />
       <sourceFolder url="file://$MODULE_DIR$/data" type="java-resource" />
       <sourceFolder url="file://$MODULE_DIR$/code" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/evaluate/lexsub-master" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/evaluate/lexsub-master/jcs/data" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

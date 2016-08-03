@@ -30,7 +30,8 @@ def read_conll():
     return conll
 
 def read_gold():
-    goldlines = {}
+    substitutes = {}
+    gold = {}
 
     for line in open(GOLD_FILE):
         line = line.strip()
@@ -39,10 +40,22 @@ def read_gold():
             continue
 
         idx = line.split()[1]
+        word = line.split()[0]
 
-        goldlines[idx] = [tuple(x.split()) for x in line.split('::')[1].strip().split(';') if len(x) > 0]
+        subs = [tuple(x.split()) for x in line.split('::')[1].strip().split(';') if len(x) > 0]
+        subs = [x for x in subs if len(x)==2]
 
-    return goldlines
+        if not subs:
+            continue
+
+        gold[idx] = subs
+
+        if word not in substitutes:
+            substitutes[word] = set([x[0] for x in gold[idx]])
+        else:
+            substitutes[word] |= set([x[0] for x in gold[idx]])
+
+    return gold, substitutes
 
 def match_conll(s, conll):
     for line in conll:
@@ -65,7 +78,7 @@ def read_input_xml():
                 for context in instance:
                     idx = instance.attrib['id']
 
-                    if idx not in goldlines:
+                    if idx not in gold:
                         continue
 
                     data[idx] = {}
@@ -75,9 +88,10 @@ def read_input_xml():
                     data[idx]['lexelt'] = item.attrib['item']
 
                     target = re.findall('<head>.+</head>', contextStr)[0].replace('<head>', '').replace('</head>', '')
-                    data[idx]['t'] = target
+                    data[idx]['t'] = target.lower()
 
-                    data[idx]['subs'] = goldlines[idx]
+                    data[idx]['gold'] = gold[idx]
+                    data[idx]['subs'] = substitutes[data[idx]['lexelt']]
 
                     data[idx]['conll'] = []
                     if match_conll(contextStr, conlls[conllId]):
@@ -107,32 +121,29 @@ def read_input_xml():
                         w = [l[1] for l in conll]
 
                         wIdx = None
-                        if tIdx - 2 > 0 and W[tIdx-2] in w:
-                            wIdx = w.index(W[tIdx-2])
-                            if wIdx+2 < len(w) and w[wIdx+2] == target: wIdx = wIdx+2
-                        elif tIdx - 1 > 0 and W[tIdx-1] in w:
-                            wIdx = w.index(W[tIdx-1])
-                            if wIdx+1 < len(w) and w[wIdx+1] == target: wIdx = wIdx+1
-                        elif tIdx + 2 < len(W) and W[tIdx+2] in w:
-                            wIdx = w.index(W[tIdx+2])
-                            if wIdx-2 > 0 and w[wIdx-2] == target: wIdx = wIdx-2
-                        elif tIdx + 1 < len(W) and W[tIdx+1] in w:
-                            wIdx = w.index(W[tIdx+1])
-                            if wIdx-1 > 0 and w[wIdx-1] == target: wIdx = wIdx-1
+                        for op in [-2,-1,1,2]:
+                            if tIdx+op > 0 and tIdx+op < len(W) and W[tIdx+op] in w:
+                                wIdx = w.index(W[tIdx+op])
+                                if wIdx-op < len(w) and wIdx-op > 0 and w[wIdx-op] == target:
+                                    wIdx = wIdx-op
+                                    break
 
                         if wIdx is not None:
                             data[idx]['tIdx'] = wIdx
                             data[idx]['conll'] = conll
                             break
 
+                    if data[idx]['tIdx'] is None:
+                        data.pop(idx)
                     
     return data
 
 conlls = read_conll()
 print('len(conlls)',':',len(conlls))
 
-goldlines = read_gold()
-print('len(goldlines)',':',len(goldlines))
+gold, substitutes = read_gold()
+print('len(gold)',':',len(gold))
+print('len(substitutes)',':',len(substitutes))
 
 data = read_input_xml()
 print('len(data)',':',len(data))

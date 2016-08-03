@@ -1,8 +1,9 @@
 from utils import readconf
 import sys
-import scipy
+import numpy as np
 from pprint import pformat
 import pickle
+from scipy.spatial.distance import cosine
 
 params = readconf(sys.argv[1])
 
@@ -19,46 +20,65 @@ def readembeddings():
     return wvocab, wvecs, w2vec, cvocab, cvecs, c2vec
 
 
-def targetcontext(s, tIdx, wvocab):
-    context = []
+def targetcontext(conll, tIdx):
+    root = [0, '*root*', None, None, None, -1, 'rroot']
+    tokens = [root] + conll
 
-    for i, _tokens in enumerate(s):
-        for token in _tokens[1:]:
-            par = _tokens[token[2]]
+    tIdx += 1
 
-            w = token[1]
-            wIdx = token[0]
+    contexts = []
+    for tok in tokens:
+        par_ind = int(tok[5])
+        par = tokens[par_ind]
+        m = tok[1]
+        mIdx = int(tok[0])
 
-            rel = token[3]
+        rel = tok[6]
+        if rel == 'prep': continue  # this is the prep. we'll get there (or the PP is crappy)
 
-            if rel == 'prep':
-                continue  # this is the prep. we'll get there (or the PP is crappy)
+        if rel == 'pobj' and par[0] != 0:
 
-            if rel == 'pobj' and par[0] != 0:
-                ppar = _tokens[par[2]]
-                rel = "%s:%s" % (par[3], par[1])
-                h = ppar[1]
-                hIdx = ppar[0]
-            else:
-                h = par[1]
-                hIdx = par[0]
+            ppar = tokens[int(par[5])]
+            rel = "%s:%s" % (par[6], par[1])
+            h = ppar[1]
+            hIdx = int(ppar[0])
+        else:
+            h = par[1]
+            hIdx = int(par[0])
 
-            if h != '*root*' and hIdx == tIdx:
-                context.append("_".join((rel, w)))
+        if h != '*root*' and hIdx == tIdx:
+            contexts += ["_".join((rel, m))]
+        if mIdx == tIdx:
+            contexts += ["I_".join((rel, h))]
 
-            if wIdx == tIdx:
-                context.append("I_".join((rel, h)))
-
-    return context
+    return contexts
 
 
 def readtaskdata():
     taskdata = pickle.load(open(params['testdata'], 'rb'))
 
     print(type(taskdata), len(taskdata))
+    return taskdata
+
+def add(tIdx, sIdx, contexts):
+    cos = cosine(wvecs[tIdx], wvecs[sIdx])
+
+    ncontexts = 0
+    for context in contexts:
+        if context in c2vec:
+            cIdx = c2vec[context]
+            cos += cosine(cvecs[cIdx], wvecs[sIdx])
+            ncontexts += 1
+
+    cos = (cos/(ncontexts + 1.0))
+
+    return cos
 
 def predict(taskdata, wvocab, wvecs, w2vec, cvocab, cvecs, c2vec):
-    for item in taskdata:
+    GAP = []
+    for idx in taskdata:
+    # for idx in ['670']:
+        item = taskdata[idx]
         target = item['t']
 
         if target not in w2vec:
@@ -67,14 +87,70 @@ def predict(taskdata, wvocab, wvecs, w2vec, cvocab, cvecs, c2vec):
 
         tIdx = w2vec[target]
 
-        contexts = targetcontext()
+        contexts = targetcontext(item['conll'], item['tIdx'])
 
-        # for sub in item['subs']:
+        gap = 0
+        lexsub = {}
 
+        dist = []
+        for sub in item['subs']:
+            if sub[0] not in w2vec:
+                continue
+
+            sIdx = w2vec[sub[0]]
+
+
+            dist.append([sub, add(tIdx, sIdx, contexts)])
+
+        dist = sorted(dist, key=lambda x: -x[1])
+
+        x = []
+        gold = [i[0] for i in item['gold']]
+        gweights = [int(i[1]) for i in item['gold']]
+
+        for i in dist:
+            if i[0] in gold:
+                x.append(int(gweights[gold.index(i[0])]))
+            else:
+                x.append(0)
+
+        gap = 0
+        for i in range(0, len(dist)):
+            if dist[i][0] in gold:
+                p = 0
+                for k in range(0, i+1):
+                    p += x[k]
+                p /= (i+1)
+                gap += p
+
+        R = 0
+        for i in range(0, len(gold)):
+            p = 0
+            for k in range(0, i+1):
+                p += gweights[k]
+            p /= (i+1)
+            R += p
+
+        GAP.append(gap/R)
+        lexsub[idx] = dist
+
+        # print(i, gap)
+        #
+        # print(item['cstr'])
+        # print(item['gold'])
+        # print(dist)
+    return GAP, lexsub
 
 print('params', ':', pformat(params))
 wvocab, wvecs, w2vec, cvocab, cvecs, c2vec = readembeddings()
-readtaskdata()
+taskdata = readtaskdata()
+GAP, lexsub = predict(taskdata, wvocab, wvecs, w2vec, cvocab, cvecs, c2vec)
+
+pickle.dump(lexsub, open(params['out'], 'wb'))
+
+GAP = np.array(GAP).mean()
+print('GAP =', GAP)
+
 
 """
 import pickle
