@@ -1,43 +1,33 @@
+from utils import readconf
+import sys
+import scipy
+from pprint import pformat
 import pickle
-import xml.etree.ElementTree as ET
-import re
-import os
-import numpy as np
-from scipy.spatial.distance import cosine
-from extract_deps import read_conll
 
-# read the embeddings
-
-WVEC_FILE = '../data/2/vecs.npy'
-WVOCAB_FILE = '../data/2/vecs.vocab'
-
-wvecs = np.load(WVEC_FILE)
-wvocab = open(WVOCAB_FILE).read().split()
-w2vec = {w: i for i, w in enumerate(wvocab)}
-
-CVEC_FILE = '../data/2/contexts.npy'
-CONTEXT_FILE = '../data/2/contexts.vocab'
-
-cvecs = np.load(CVEC_FILE)
-cvocab = open(CONTEXT_FILE).read().split()
-c2vec = {w: i for i, w in enumerate(cvocab)}
+params = readconf(sys.argv[1])
 
 
-def calculate_contexts(tokens, targetIdx):
-    """
-    calculate dependencies
-    """
-    dep = []
-    for i, _tokens in enumerate(tokens):
+def readembeddings():
+    wvecs = np.load(params['wvecs'])
+    wvocab = open(params['wvocab']).read().split()
+    w2vec = {w: i for i, w in enumerate(wvocab)}
+
+    cvecs = np.load(params['cvecs'])
+    cvocab = open(params['cvocab']).read().split()
+    c2vec = {w: i for i, w in enumerate(cvocab)}
+
+    return wvocab, wvecs, w2vec, cvocab, cvecs, c2vec
+
+
+def targetcontext(s, tIdx, wvocab):
+    context = []
+
+    for i, _tokens in enumerate(s):
         for token in _tokens[1:]:
-            parIdx = token[2]
-            par = _tokens[parIdx]
+            par = _tokens[token[2]]
 
             w = token[1]
             wIdx = token[0]
-
-            if w not in wvocab:
-                continue
 
             rel = token[3]
 
@@ -53,28 +43,68 @@ def calculate_contexts(tokens, targetIdx):
                 h = par[1]
                 hIdx = par[0]
 
-            if h not in wvocab and h != '*root*':
-                continue
+            if h != '*root*' and hIdx == tIdx:
+                context.append("_".join((rel, w)))
 
-            if h != '*root*' and hIdx == targetIdx:
-                dep.append("_".join((rel, w)))
+            if wIdx == tIdx:
+                context.append("I_".join((rel, h)))
 
-            if wIdx == targetIdx:
-                dep.append("I_".join((rel, h)))
+    return context
 
-    return dep
+
+def readtaskdata():
+    taskdata = pickle.load(open(params['testdata'], 'rb'))
+
+    print(type(taskdata), len(taskdata))
+
+def predict(taskdata, wvocab, wvecs, w2vec, cvocab, cvecs, c2vec):
+    for item in taskdata:
+        target = item['t']
+
+        if target not in w2vec:
+            print('target not in vocab:', target)
+            continue
+
+        tIdx = w2vec[target]
+
+        contexts = targetcontext()
+
+        # for sub in item['subs']:
+
+
+print('params', ':', pformat(params))
+wvocab, wvecs, w2vec, cvocab, cvecs, c2vec = readembeddings()
+readtaskdata()
+
+"""
+import pickle
+import xml.etree.ElementTree as ET
+import re
+import os
+import numpy as np
+from scipy.spatial.distance import cosine
+from extract_deps import read_conll
+import heapq
+
 
 
 TARGETS_FILE = '../evaluate/data/targets.txt'
+TARGETS_FILE = '/home/cop15rj/rishav-msc-project/evaluate/data/targets.txt'
 # SUBSTITUTES_FILE = '../evaluate/data/substitutes.data'
 SUBSTITUTES_FILE = '../data/2/wv'
+SUBSTITUTES_FILE = '/data/cop15rj/lexsub/1/wv'
+# SUBSTITUTES_FILE = '/home/cop15rj/rishav-msc-project/evaluate/data/substitutes.data'
 
 
 INPUT_CONLL_FILE = '../evaluate/data/sentences.txt.conll'
+INPUT_CONLL_FILE = '/home/cop15rj/rishav-msc-project/evaluate/data/sentences.txt.conll'
 # INPUT_FILE = 'evaluate/taskdata/trial/lexsub_trial.xml'
 
 OUTPUT_FILE_BEST = '../data/2/best.txt'
+OUTPUT_FILE_BEST = '/data/cop15rj/lexsub/1/best.txt'
+
 OUTPUT_FILE_OOT = '../data/2/oot.txt'
+OUTPUT_FILE_OOT = '/data/cop15rj/lexsub/1/oot.txt'
 
 # subsDict = pickle.load(open(SUBSTITUTES_FILE, 'rb'))
 subsDict = [line.strip().split()[0] for line in open(SUBSTITUTES_FILE, 'r').readlines()]
@@ -126,8 +156,8 @@ for line in conllFile:
     pos = lexelt.split('.')[1]
 
     if target not in w2vec:
-        # # print('target word not in vocab: {}'.format(target))
-        #
+        print('target word not in vocab: {}'.format(target))
+
         # if lexelt.split('.')[0] in w2vec:
         #     # print('using the target word: {} instead of {}'.format(lexelt.split('.')[0], target))
         #     target = lexelt.split('.')[0]
@@ -156,23 +186,27 @@ for line in conllFile:
                 if context in c2vec:
                     cIdx = c2vec[context]
                     cos += cosine(wvecs[sIdx], cvecs[cIdx])
-                numcontexts += 1
+                    numcontexts += 1
 
-            similarity.append((i, cos/(numcontexts + 1.0)))
+            # heapq.heappush(similarity, (-cos/(numcontexts + 1.0), subsDict[i]))
+            similarity.append((cos/(numcontexts + 1.0), subsDict[i]))
         # else:
             # print('substitute word not in vocab: {}'.format(sub))
 
+    similarity = heapq.nlargest(10, similarity, key=lambda x: x[0])
+
     # print(similarity)
-    similarity = sorted(similarity, key=lambda x: -x[1])[:10];
+    # similarity = sorted(similarity, key=lambda x: -x[1])[:10];
     # filtSubs = [subsDict[lexelt.split('.')[0]][i[0]] for i in similarity]
-    filtSubs = [subsDict[i[0]] for i in similarity]
+    filtSubs = [i[1] for i in similarity]
+    # filtSubs = [heapq.heappop(similarity)[1] for i in range(10)]
 
-    similarity = [i[1] for i in similarity]
-    while len(similarity) < 10:
-        similarity.append(0)
-    numdump.append(similarity)
+    # similarity = [i[1] for i in similarity]
+    # while len(similarity) < 10:
+    #     similarity.append(0)
+    # numdump.append(similarity)
 
-    print(lexelt, numsentences, filtSubs)
+    print(lexelt, numsentences, contexts, filtSubs)
     # print('{} {} :: {}'.format(lexelt, numsentences, str(filtSubs).strip('[\']').replace('\', \'', ';')))
     bestFile.write('{} {} :: {}'.format(lexelt, numsentences, str(filtSubs[:3]).strip('[\']').replace('\', \'', ';')))
     bestFile.write('\n')
@@ -199,5 +233,6 @@ for line in conllFile:
     # if numsentences == 10:
     #     break
 
-numdump2 = np.matrix(numdump)
-np.save('../data/2/np.dump', numdump2)
+# numdump2 = np.matrix(numdump)
+# np.save('../data/2/np.dump', numdump2)
+"""

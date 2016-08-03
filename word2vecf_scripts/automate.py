@@ -27,5 +27,8 @@ zcat /data/cop15rj/data100.conll.gz | python /home/cop15rj/rishav-msc-project/co
 
 /home/cop15rj/rishav-msc-project/word2vecf/word2vecf -train /data/cop15rj/lexsub/1/data100.dep -cvocab /data/cop15rj/lexsub/1/cv -wvocab /data/cop15rj/lexsub/1/wv -output /data/cop15rj/lexsub/1/dim600vecs -dumpcv /data/cop15rj/lexsub/1/dim600contexts -size 600 -negative 15 -threads 32
 
-qsub -l mem=24G -l rmem=8G -m bea -M rjain2@sheffield.ac.uk -j y -o /data/cop15rj/lexsub/1/log-qsub -N word2vecf-100 /data/cop15rj/run-code.bash
+python /home/cop15rj/rishav-msc-project/code/vecs2nps.py /data/cop15rj/lexsub/1/dim600vecs /data/cop15rj/lexsub/1/vecs
+python /home/cop15rj/rishav-msc-project/code/vecs2nps.py /data/cop15rj/lexsub/1/dim600contexts /data/cop15rj/lexsub/1/contexts
+
+qsub -l mem=48G -l rmem=16G -m bea -M rjain2@sheffield.ac.uk -j y -o /data/cop15rj/log-qsub -N automate /data/cop15rj/run-code.bash
 """

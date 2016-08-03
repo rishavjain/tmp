@@ -48,12 +48,12 @@ if __name__ == '__main__':
 
                     idx = (contextStr.split(' ')).index(t) + 1
 
-                    print('t', ':', t.strip('</head>'))
+                    print('t', ':', t.replace('<head>', '').replace('</head>', ''))
 
-                    contextStr = contextStr.replace(t, t.strip('</head>'))
+                    contextStr = contextStr.replace(t, t.replace('<head>', '').replace('</head>', ''))
                     # print('contextStr', ':', contextStr)
 
-                    print(lexelt.attrib['item'], t.strip('</head>'), idx, file=targetsFile)
+                    print(lexelt.attrib['item'], t.replace('<head>', '').replace('</head>', ''), idx, file=targetsFile)
                     print(contextStr, file=sentencesFile)
 
         #         break

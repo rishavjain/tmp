@@ -26,12 +26,6 @@ def read_conll(fh):
         line = line.lower()
         tok = line.strip().split('\t')
 
-        # if len(tok) != 7:
-        #     # print('read_conll check : ', str(tok), file=sys.stderr)
-        #     # tokens = []
-        #     # break
-        #     continue
-
         if tok == ['']:
             if len(tokens) > 1:
                 yield tokens
